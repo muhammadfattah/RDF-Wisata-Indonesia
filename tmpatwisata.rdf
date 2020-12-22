@@ -1,0 +1,1557 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY http "http://" >
+    <!ENTITY dbpprop-id "http://id.dbpedia.org" >
+    <!ENTITY foaf "http://xmlns.com/foaf/0.1/" >
+    <!ENTITY dbpedia-owl "http://dbpedia.org/ontology/" >
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY dbpedia-id "http://id.dbpedia.org/resource/classes#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+    <!ENTITY ns2 "http://id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/" >
+]>
+
+
+<rdf:RDF xmlns="&http;www.w3.org/2002/07/owl#"
+     xml:base="&http;www.w3.org/2002/07/owl"
+     xmlns:ns2="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"
+     xmlns:rdfs="&http;www.w3.org/2000/01/rdf-schema#"
+     xmlns:dbpedia-owl="&http;dbpedia.org/ontology/"
+     xmlns:foaf="&http;xmlns.com/foaf/0.1/"
+     xmlns:http="http://"
+     xmlns:dbpprop-id="&http;id.dbpedia.org"
+     xmlns:owl="&http;www.w3.org/2002/07/owl#"
+     xmlns:xsd="&http;www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="&http;www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:dbpedia-id="&http;id.dbpedia.org/resource/classes#">
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://id.dbpedia.orgaddress -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgaddress"/>
+    
+
+
+    <!-- http://id.dbpedia.orgarchitect -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgarchitect"/>
+    
+
+
+    <!-- http://id.dbpedia.orgarea -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgarea"/>
+    
+
+
+    <!-- http://id.dbpedia.orgbridgeName -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgbridgeName"/>
+    
+
+
+    <!-- http://id.dbpedia.orgbuildingName -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgbuildingName"/>
+    
+
+
+    <!-- http://id.dbpedia.orgcaption -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgcaption"/>
+    
+
+
+    <!-- http://id.dbpedia.orgcarries -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgcarries"/>
+    
+
+
+    <!-- http://id.dbpedia.orgclient -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgclient"/>
+    
+
+
+    <!-- http://id.dbpedia.orgcompletionDate -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgcompletionDate"/>
+    
+
+
+    <!-- http://id.dbpedia.orgconstructionStartDate -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgconstructionStartDate"/>
+    
+
+
+    <!-- http://id.dbpedia.orgcrosses -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgcrosses"/>
+    
+
+
+    <!-- http://id.dbpedia.orgdateOpened -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgdateOpened"/>
+    
+
+
+    <!-- http://id.dbpedia.orgdepth -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgdepth"/>
+    
+
+
+    <!-- http://id.dbpedia.orgelevation -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgelevation"/>
+    
+
+
+    <!-- http://id.dbpedia.orgelevationM -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgelevationM"/>
+    
+
+
+    <!-- http://id.dbpedia.orgestabilished -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgestabilished"/>
+    
+
+
+    <!-- http://id.dbpedia.orgfasilitas -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgfasilitas"/>
+    
+
+
+    <!-- http://id.dbpedia.orggoverningBody -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orggoverningBody"/>
+    
+
+
+    <!-- http://id.dbpedia.orgjenisWisata -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgjenisWisata"/>
+    
+
+
+    <!-- http://id.dbpedia.orglabelPosition -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglabelPosition"/>
+    
+
+
+    <!-- http://id.dbpedia.orglastEruption -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglastEruption"/>
+    
+
+
+    <!-- http://id.dbpedia.orglatitude -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglatitude"/>
+    
+
+
+    <!-- http://id.dbpedia.orglocale -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglocale"/>
+    
+
+
+    <!-- http://id.dbpedia.orglocation -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglocation"/>
+    
+
+
+    <!-- http://id.dbpedia.orglocationCountry -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglocationCountry"/>
+    
+
+
+    <!-- http://id.dbpedia.orglocationTown -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglocationTown"/>
+    
+
+
+    <!-- http://id.dbpedia.orglokasi -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglokasi"/>
+    
+
+
+    <!-- http://id.dbpedia.orglongitude -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orglongitude"/>
+    
+
+
+    <!-- http://id.dbpedia.orgluas -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgluas"/>
+    
+
+
+    <!-- http://id.dbpedia.orgmap -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgmap"/>
+    
+
+
+    <!-- http://id.dbpedia.orgmapCaption -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgmapCaption"/>
+    
+
+
+    <!-- http://id.dbpedia.orgmapType -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgmapType"/>
+    
+
+
+    <!-- http://id.dbpedia.orgmaxDepth -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgmaxDepth"/>
+    
+
+
+    <!-- http://id.dbpedia.orgmulaiDibangun -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgmulaiDibangun"/>
+    
+
+
+    <!-- http://id.dbpedia.orgnearCity -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgnearCity"/>
+    
+
+
+    <!-- http://id.dbpedia.orgphotoCaption -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgphotoCaption"/>
+    
+
+
+    <!-- http://id.dbpedia.orgsourceLocation -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgsourceLocation"/>
+    
+
+
+    <!-- http://id.dbpedia.orgtype -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgtype"/>
+    
+
+
+    <!-- http://id.dbpedia.orgyear -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgyear"/>
+    
+
+
+    <!-- http://id.dbpedia.orgzooName -->
+
+    <AnnotationProperty rdf:about="&http;id.dbpedia.orgzooName"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/abstract -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/abstract"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/country -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/country"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/depth -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/depth"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/elevation -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/elevation"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/length -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/length"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/locatedInArea -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/locatedInArea"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/location -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/location"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/sourceLocation -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/sourceLocation"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/type -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/type"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/width -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/width"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/wikiPageExternalLink -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/wikiPageExternalLink"/>
+    
+
+
+    <!-- http://dbpedia.org/ontology/wikiPageWikiLink -->
+
+    <AnnotationProperty rdf:about="&http;dbpedia.org/ontology/wikiPageWikiLink"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/isPrimaryTopicOf -->
+
+    <AnnotationProperty rdf:about="&http;xmlns.com/foaf/0.1/isPrimaryTopicOf"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://id.dbpedia.org/page/Bali -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Bali">
+        <rdfs:label>Bali</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Bandungan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Bandungan">
+        <rdfs:label>Bandungan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Bandungan merupakan sebuah obyek wisata pegunungan yang terdapat di Kecamatan Bandungan, Kabupaten Semarang. Obyek wisata ini dapat ditempuh dengan kendaraan selama 1 jam di sebelah selatan Semarang atau sekitar 20 menit dari Ungaran, atau sekitar 15 menit dari Ambarawa melalui jalur pegunungan. Bandungan memiliki udara yang sejuk dan segar sehingga banyak sekali terdapat hotel dan motel. Adapun obyek wisatanya yang terkenal yaitu Candi Gedongsongo. Di Bandungan terdapat banyak objek wisata yang menarik seperti di daerah Sidomukti, di sana terdapat arena outbond yang menantang dan pemandangannya indah. Komplek perumahan Hollywood juga ada letaknya di daerah susan spa.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Bandungan,_Semarang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Candi_Gedongsongo"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Kota_Semarang"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Batu_Secret_Zoo -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Batu_Secret_Zoo">
+        <rdfs:label>Batu Secret Zoo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Timur"/>
+        <http:id.dbpedia.orgzooName>Batu Secret Zoo</http:id.dbpedia.orgzooName>
+        <dbpedia-owl:abstract>Batu Secret Zoo merupakan tempat wisata dan kebun binatang modern yang terletak di Kota Batu, Jawa Timur. Batu Secret Zoo yang berada di tanah seluas 14 hektar tersebut merupakan bagian dari Jatim Park 2, selain Pohon Inn dan Museum Satwa. Beberapa koleksi hewan dari berbagai habitat yang sebagian besar berasal dari Asia dan Afrika dapat ditemukan di kebun binatang ini, antara lain singa putih, kijang afrika, burung macau, dan bermacam-macam reptil.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgdateOpened>Juni 2010</http:id.dbpedia.orgdateOpened>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Burung_macau"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Kijang_afrika"/>
+        <http:id.dbpedia.orglocation rdf:resource="&http;id.dbpedia.org/page/Kota_Batu"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Singa_putih"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Batu_Secret_Zoo"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Bengkulu -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Bengkulu">
+        <rdfs:label>Bengkulu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Bukit_Cinta -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Bukit_Cinta">
+        <rdfs:label>Bukit Cinta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Bukit Cinta merupakan bukit yang terletak di Desa Kebondowo Kecamatan Banyubiru Semarang. Bukit Cinta adalah sebuah bukit kecil yang terletak di pinggir Danau Rawapening. Sarana transportasi menuju ke tempat ini sangatlah mudah, hanya 5 Km dari Kota Ambarawa arah ke Salatiga via Banyubiru. Dari Salatiga jaraknya sekitar 10 Km. Yang diandalkan dari obyek wisata ini adalah keteduhan pepohonan dan pemandangan danau Rawapening. Untuk wisata air seperti memancing, ski air, ataupun berkeliling danau Rawapening dengan menyewa perahu motor dengan tarif Rp. 30.000,- per 1/2 jam. Adapula oleh-oleh khas dari obyek wisata ini adalah kerajinan dari enceng gondok.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kecamatan_Banyubiru"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/nasib-bukit-cinta.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Bukit_Cinta"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Candi_Dasa -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Candi_Dasa">
+        <rdfs:label>Candi Dasa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Bali"/>
+        <dbpedia-owl:abstract>Candi Dasa adalah sebuah tempat peristirahatan atau resor yang terletak di kabupaten Karangasem, Bali. Daerah ini jaraknya kurang lebih 90 km di sebelah timur laut Denpasar. Dari Candi Dasa untuk menuju Tenganan jaraknya hanya kira-kira 10 kilometer. Candi Dasa terletak di Teluk Amuk yang merupakan salah satu tempat terkenal untuk menyelam. Pulau-pulau kecil di Teluk Amuk (Gili Tepekong, Gili Biaha, Gili Mimpang) menawarkan pengalaman menyelam yang menakjubkan.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Karangasem"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Candi_Dasa"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Candi_Muara_Takus -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Candi_Muara_Takus">
+        <rdfs:label>Candi Muara Takus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Riau"/>
+        <dbpedia-owl:abstract>Situs Candi Muara Takus adalah sebuah situs candi Buddha yang terletak di di desa Muara Takus, Kecamatan XIII Koto, Kabupaten Kampar, Riau, Indonesia. Situs ini berjarak kurang lebih 135 kilometer dari Kota Pekanbaru. Situs Candi Muara Takus dikelilingi oleh tembok berukuran 74 x 74 meter, yang terbuat dari batu putih dengan tinggi tembok ± 80 cm, di luar arealnya terdapat pula tembok tanah berukuran 1,5 x 1,5 kilometer, mengelilingi kompleks ini sampal ke pinggir Sungai Kampar Kanan. Di dalam kompleks ini terdapat beberapa bangunan candi yang disebut dengan Candi sulung /tua, Candi Bungsu, Mahligai Stupa dan Palangka. Para pakar purbakala belum dapat menentukan secara pasti kapan situs candi ini didirikan. Ada yang mengatakan abad keempat, ada yang mengatakan abad ketujuh, abad kesembilan bahkan pada abad kesebelas. Namun candi ini dianggap telah ada pada zaman keemasan Sriwijaya, sehingga beberapa sejarahwan menganggap kawasan ini merupakan salah satu pusat pemerintahan dari kerajaan Sriwijaya. Pada tahun 2009 Candi Muara Takus dicalonkan untuk menjadi salah satu Situs Warisan Dunia UNESCO.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.riaudailyphoto.com/2011/12/candi-muara-takus.html"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.riaudailyphoto.com/2013/05/sejarah-candi-muara-takus.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Candi_Muara_Takus"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Candi_Prambanan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Candi_Prambanan">
+        <rdfs:label>Candi Prambanan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kota_Yogyakarta"/>
+        <http:id.dbpedia.orgtype>Budaya</http:id.dbpedia.orgtype>
+        <http:id.dbpedia.orgyear>1991</http:id.dbpedia.orgyear>
+        <dbpedia-owl:abstract>Candi Prambanan atau Candi Rara Jonggrang adalah kompleks candi Hindu terbesar di Indonesia yang dibangun pada abad ke-9 masehi. Candi ini dipersembahkan untuk Trimurti, tiga dewa utama Hindu yaitu Brahma sebagai dewa pencipta, Wishnu sebagai dewa pemelihara, dan Siwa sebagai dewa pemusnah. Berdasarkan prasasti Siwagrha nama asli kompleks candi ini adalah Siwagrha (bahasa Sanskerta yang bermakna &apos;Rumah Siwa&apos;), dan memang di garbagriha (ruang utama) candi ini bersemayam arca Siwa Mahadewa setinggi tiga meter yang menujukkan bahwa di candi ini dewa Siwa lebih diutamakan. Candi ini terletak di desa Prambanan, pulau Jawa, kurang lebih 20 kilometer timur Yogyakarta, 40 kilometer barat Surakarta dan 120 kilometer selatan Semarang, persis di perbatasan antara provinsi Jawa Tengah dan Daerah Istimewa Yogyakarta. Candi Rara Jonggrang terletak di desa Prambanan yang wilayahnya dibagi antara kabupaten Sleman dan Klaten. Candi ini adalah termasuk Situs Warisan Dunia UNESCO, candi Hindu terbesar di Indonesia, sekaligus salah satu candi terindah di Asia Tenggara. Arsitektur bangunan ini berbentuk tinggi dan ramping sesuai dengan arsitektur Hindu pada umumnya dengan candi Siwa sebagai candi utama memiliki ketinggian mencapai 47 meter menjulang di tengah kompleks gugusan candi-candi yang lebih kecil. Sebagai salah satu candi termegah di Asia Tenggara, candi Prambanan menjadi daya tarik kunjungan wisatawan dari seluruh dunia. Menurut prasasti Siwagrha, candi ini mulai dibangun pada sekitar tahun 850 masehi oleh Rakai Pikatan, dan terus dikembangkan dan diperluas oleh Balitung Maha Sambu, di masa kerajaan Medang Mataram.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Brahma"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Candi_Rara_Jonggrang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Wisnu"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Candi_Prambanan"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Daerah_Khusus_Ibukota_Jakarta -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Daerah_Khusus_Ibukota_Jakarta">
+        <rdfs:label>Daerah Khusus Ibukota Jakarta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Kerinci -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Kerinci">
+        <rdfs:label>Danau Kerinci</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jambi"/>
+        <dbpedia-owl:abstract>Danau Kerinci merupakan sebuah danau yang terletak di provinsi Jambi, Indonesia. Tepatnya di Kabupaten Kerinci. Danau ini memiliki luas wilayah 5000 m persegi dengan memiliki ketinggian 783 m. Danau yang terletak di kaki Gunung Raja ini merupakan danau terbesar yang ada di Kabupaten Kerinci.</dbpedia-owl:abstract>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Kerinci"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Kerinci"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Limboto -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Limboto">
+        <rdfs:label>Danau Limboto</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Gorontalo"/>
+        <dbpedia-owl:abstract>Danau Limboto merupakan sebuah danau yang terletak di Kecamatan Limboto, Gorontalo, Provinsi Gorontalo, Indonesia. Danau ini memiliki kedalaman antara 5 hingga 8 meter ini, para pengujung atau wisatawan dapat menikmati berbagai kegiatan, antara lain, memancing, lomba berperahu, atau berenang. Selain itu, mereka juga dapat menikmati ikan bakar segar yang disediakan oleh mayarakat nelayan setempat dengan harga yang relatif murah. Danau Limboto dari tahun ke tahun luas dan tingkat kedalamannya terus berkurang. Luas Danau Limboto pada tahun 1999 berkisar antara 1.900-3.000 ha, dengan kedalaman 2-4 meter (Cabang Dinas Perikanan Kabupaten Gorontalo, 2000). Pada tahun 1932, luas perairan ini mencapai 7.000 ha.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Limboto,_Gorontalo"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Limboto"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Maninjau -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Maninjau">
+        <rdfs:label>Danau Maninjau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Barat"/>
+        <dbpedia-owl:abstract>Danau Maninjau adalah sebuah danau di kecamatan Tanjung Raya, Kabupaten Agam, provinsi Sumatera Barat, Indonesia. Danau ini terletak sekitar 140 kilometer sebelah utara Kota Padang, ibukota Sumatera Barat, 36 kilometer dari Bukittinggi, 27 kilometer dari Lubuk Basung, ibukota Kabupaten Agam. Maninjau yang merupakan danau vulkanik ini berada di ketinggian 461,50 meter di atas permukaan laut. Luas Maninjau sekitar 99,5 km² dan memiliki kedalaman maksimum 495 meter. Cekungannya terbentuk karena letusan gunung yang bernama Sitinjau (menurut legenda setempat), hal ini dapat terlihat dari bentuk bukit sekeliling danau yang menyerupai seperti dinding. Menurut legenda di Ranah Minang, keberadaan Danau Maninjau berkaitan erat dengan kisah Bujang Sembilan. Danau Maninjau merupakan sumber air untuk sungai bernama Batang Sri Antokan. Di salah satu bagian danau yang merupakan hulu dari Batang Sri Antokan terdapat PLTA Maninjau. Puncak tertinggi diperbukitan sekitar Danau Maninjau dikenal dengan nama Puncak Lawang. Untuk bisa mencapai Danau Maninjau jika dari arah Bukittinggi maka akan melewati jalan berkelok-kelok yang dikenal dengan Kelok 44 sepanjang kurang lebih 10 km mulai dari Ambun Pagi sampai ke Maninjau. Danau ini tercatat sebagai danau terluas kesebelas di Indonesia. Sedangkan di Sumatera Barat, Maninjau merupakan danau terluas kedua setelah Danau Singkarak yang memiliki luas 129,69 km² yang berada di dua kabupaten yaitu Kabupaten Tanah Datar dan Kabupaten Solok. Di sekitar Danau Maninjau terdapat fasilitas wisata, seperti Hotel(Maninjau Indah Hotel, Pasir Panjang Permai) serta penginapan dan restoran.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgelevation>459 m</http:id.dbpedia.orgelevation>
+        <http:id.dbpedia.orgmaxDepth>165 m</http:id.dbpedia.orgmaxDepth>
+        <dbpedia-owl:length>16000.000000</dbpedia-owl:length>
+        <http:id.dbpedia.orgdepth>105 m</http:id.dbpedia.orgdepth>
+        <dbpedia-owl:width>7000.000000</dbpedia-owl:width>
+        <dbpedia-owl:country rdf:resource="&http;id.dbpedia.org/page/Indonesia"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Agam"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.agamkab.go.id/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Maninjau"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Matano -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Matano">
+        <rdfs:label>Danau Matano</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Selatan"/>
+        <dbpedia-owl:abstract>Danau Matano adalah sebuah danau di Sulawesi Selatan, tepatnya berada di ujung selatan pulau Sulawesi di kota Sorowako, Kabupaten Luwu Timur. Danau ini memiliki kedalaman sejauh 600 meter (1.969 kaki), 382 meter di antaranya di atas permukaan laut. Menurut WWF, danau ini adalah danau terdalam di Asia Tenggara serta terdalam kedelapan di dunia. Danau Matano bukan merupakan pembentukan dari beberapa anak sungai, tetapi terbentuk dari ribuan mata air sehingga tidak akan pernah mengalami kekeringan. Airnya sangat jernih. Sebagai sumber daya alam yang sangat potensial maka perusahaan tambang nikel terbesar kedua dunia, PT. INCO memanfaatkan buangan air dari Danau Matano sebagai pembangkit listrik tenaga air (PLTA) untuk pemanfaatan di pabrik, dan juga untuk penggunaan oleh masyarakat.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Luwu_Timur"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Sorowako"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Matano"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Poso -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Poso">
+        <rdfs:label>Danau Poso</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tengah"/>
+        <dbpedia-owl:abstract>Danau Poso merupakan sebuah danau yang terletak di provinsi Sulawesi Tengah, Indonesia. Tepatnya di Kabupaten Poso. Danau ini merupakan danau terbesar ketiga di Indonesia dengan memiliki panjang 32 km dan lebar 16 km. Danau ini terletak pada ketinggian 657 m. Danau Poso merupakan salah satu Danau terindah di dunia dengan Pasir putih yang terdapat pada tepi sampai di Dasar Danau. Danau poso terletak di Kecamatan Pamona Utara dengan ibu kota Tentena. Ada beberapa keunikan Danau ini yang dapat dinikmati oleh para Visitor antara lain : Ikan Mujair, Nilam, Lele, Ikan Mas dsb. Tetapi yang paling unik adalah Ikan Sugili yang sekarang populasinya hampir punah yang disebabkan oleh semakin bertambahnya penduduk dan mungkin juga disebabkan karena dibangunnya Mega proyek PLTA Sulewana yang berperan sangat besar dalam memutuskan Mata Rantai perkembangbiakan jenis Ikan langka ini. Menurut kisah bahwa pada saat-saat ikan ini akan berkembangbiak, mereka akan melakukan Migrasi ke muara sungai yang bertemu dengan air laut dan selanjutnya ketika anak-anak sugili menanjak dewasa, mereka akan kembali ke danau. Tetapi ketika Mega Proyek PLTA dibangun diantara Poso dan Tentena maka secara otomatis sistem perkembangbiakan populasi Sugili yang hanya dapat terjadi secara alamaiah inipun mengalami masalah besar, sehingga keberlangsungan populasi ikan ini dalam waktu dekat diprediksi akan mengalami stop atau mengalami kepunahan seperti populasi ikan bungu populasi khas Danau Poso yang tidak lagi dapat dijumpai. Disamping itu terdapat fenomena alam yang berbau mistis yaitu Lampu Danau yang merupakan salah satu keunikan juga sewaktu-waktu dapat disaksikan pada waktu malam hari.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Poso"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Poso"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Ranau -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Ranau">
+        <rdfs:label>Danau ranau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Lampung"/>
+        <http:id.dbpedia.orgarea>1259</http:id.dbpedia.orgarea>
+        <dbpedia-owl:depth>229.000000</dbpedia-owl:depth>
+        <dbpedia-owl:depth>174.000000</dbpedia-owl:depth>
+        <dbpedia-owl:abstract>Danau Ranau adalah danau terbesar ke dua di Sumatera. Danau ini terletak di perbatasan Kabupaten Lampung Barat Provinsi Lampung dan Kabupaten Ogan Komering Ulu Selatan Provinsi Sumatera Selatan. Danau ini tercipta dari gempa besar dan letusan vulkanik dari gunung berapi yang membuat cekungan besar. Terletak pada posisi koordinat 4°51′45″LS,103°55′50″BT Secara geografis topografi danau Ranau adalah perbukitan yang berlembah hal ini praktis menjadikan danau Ranau memiliki cuaca yang sejuk.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgmaxDepth>229 m</http:id.dbpedia.orgmaxDepth>
+        <http:id.dbpedia.orgtype>Danau tektonik/danau vulkanik</http:id.dbpedia.orgtype>
+        <dbpedia-owl:country rdf:resource="&http;id.dbpedia.org/page/Indonesia"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Ranau"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Singkarak -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Singkarak">
+        <rdfs:label>Danau Singkarak</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Barat"/>
+        <http:id.dbpedia.orgelevation>3635</http:id.dbpedia.orgelevation>
+        <dbpedia-owl:length>20000.000000</dbpedia-owl:length>
+        <dbpedia-owl:abstract>Danau Singkarak adalah sebuah danau yang membentang di dua kabupaten di provinsi Sumatera Barat, Indonesia, yaitu kabupaten Solok dan kabupaten Tanah Datar. Danau ini memiliki luas 107,8 km² dan merupakan danau terluas ke-2 di pulau Sumatera. Danau ini merupakan hulu Batang Ombilin. Namun sebahagian air danau ini dialirkan melalui terowongan menembus Bukit Barisan ke Batang Anai untuk menggerakkan generator PLTA Singkarak di dekat Lubuk Alung, kabupaten Padang Pariaman.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgdepth>268 m</http:id.dbpedia.orgdepth>
+        <dbpedia-owl:sourceLocation rdf:resource="&http;id.dbpedia.org/page/Batang_Kuantan"/>
+        <http:id.dbpedia.orgsourceLocation rdf:resource="&http;id.dbpedia.org/page/Batang_Ombilin"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Tanah_Datar"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Singkarak"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Tempe -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Tempe">
+        <rdfs:label>Danau Tempe</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Selatan"/>
+        <dbpedia-owl:abstract>Danau Tempe merupakan danau yang terletak di bagian Barat Kabupaten Wajo, Sulawesi Selatan, tepatnya di Kecamatan Tempe, sekitar 7 km dari Kota Sengkang menuju tepi Sungai Walanae. Danau Tempe yang luasnya sekitar 13.000 hektare ini memiliki spesies ikan air tawar yang jarang ditemui di tempat lain. Hal ini karena danau tersebut terletak di atas lempengan benua Australia dan Asia. Danau ini merupakansalah satu danau tektonik di Indonesia.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Wajo"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kecamatan_Tempe"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Tempe"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Toba -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Toba">
+        <rdfs:label>Danau Toba</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Utara"/>
+        <dbpedia-owl:abstract>Danau Toba adalah sebuah danau vulkanik dengan ukuran panjang 100 kilometer dan lebar 30 kilometer yang terletak di Provinsi Sumatera Utara, Indonesia. Danau ini merupakan danau terbesar di Indonesia dan Asia Tenggara. Di tengah danau ini terdapat sebuah pulau vulkanik bernama Pulau Samosir. Danau Toba sejak lama menjadi daerah tujuan wisata penting di Sumatera Utara selain Bukit Lawang, Berastagi dan Nias, menarik wisatawan domestik maupun mancanegara.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orglatitude>358</http:id.dbpedia.orglatitude>
+        <http:id.dbpedia.orgcaption>Keindahan Danau Toba.</http:id.dbpedia.orgcaption>
+        <http:id.dbpedia.orgmapType>Indonesia</http:id.dbpedia.orgmapType>
+        <http:id.dbpedia.orglongitude>9867</http:id.dbpedia.orglongitude>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.kotamedan.com"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Tapanuli_Utara"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Toba_Samosir"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Samosir"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;kotawisataindonesia.com/wisata-alam-danau-toba"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.northsumatratourism.info/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Toba"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Danau_Tondano -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Danau_Tondano">
+        <rdfs:label>Danau Tondano</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Utara"/>
+        <dbpedia-owl:abstract>Danau Tondano adalah danau terluas di Provinsi Sulawesi Utara, Indonesia. Danau ini diapit oleh Pegunungan Lembean, Gunung Kaweng, Bukit Tampusu, dan Gunung Masarang. Danau ini dilingkari dengan jalan provinsi dan menghubungkan kota Tondano, Kecamatan Tondano Timur, Kecamatan Eris, Kecamatan Kakas, Kecamatan Remboken, dan Kecamatan Tondano Selatan. Danau ini merupakan danau penghasil ikan air tawar seperti ikan mujair, pior/kabos, payangka wiko (udang kecil), nikesepat siang(arwana),tawes,pongkor,bontayan,lobster hitam,guramekupu-kupu,karper. Luas danau ini 4.278ha, dan terdapat pulau kecil bernama Likri (depan desa Tandengan kecamatan Eris)dan pulau papalembet depat toulumembet. Di tepi Danau Tondano terlihat jelas Gunung Kaweng. Konon danau ini terjadi karena letusan yang dahsyat karena ada kisah sepasang insan manusia yang berlainan jenis melanggar larangan orang tua untuk kawin dengan nekat lari (tumingkas) di hutan. Sebagai akibat melanggar nasihat orang tua maka meletuslah kembaran gunung kaweng tersebut sehingga menjadi danau Tondano. Danau Tondano mempunyai obyek wisata yang terkenal &quot;Sumaru Endo&quot; Remboken, dan Resort Wisata Bukit Pinus (Tondano arah Toliang Oki). Gua tikus tasuka, Dari tepian danau Tondano (Toliang Oki), kita dapat melintas puncak Bukit Lembean dan memandang keindahan Laut Maluku (di sebelah timur), tepatnya kawasan Tondano Pante (Kecamatan Kombi), Kabupaten Minahasa. Pondok kinakas.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Eris,_Minahasa"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Kaweng"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Masarang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Kakas,_Minahasa"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Remboken,_Minahasa"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Tondano"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Danau_Tondano"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Fort_Rotterdam -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Fort_Rotterdam">
+        <rdfs:label>Fort Rotterdam</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Selatan"/>
+        <dbpedia-owl:abstract>Fort Rotterdam atau Benteng Ujung Pandang (Jum Pandang) adalah sebuah benteng peninggalan Kerajaan Gowa-Tallo. Letak benteng ini berada di pinggir pantai sebelah barat Kota Makassar, Sulawesi Selatan. Benteng ini dibangun pada tahun 1545 oleh Raja Gowa ke-9 yang bernama I manrigau Daeng Bonto Karaeng Lakiung Tumapa&apos;risi&apos; kallonna. Awalnya benteng ini berbahan dasar tanah liat, namun pada masa pemerintahan Raja Gowa ke-14 Sultan Alauddin konstruksi benteng ini diganti menjadi batu padas yang bersumber dari Pegunungan Karst yang ada di daerah Maros. Benteng Ujung Pandang ini berbentuk seperti seekor penyu yang hendak merangkak turun ke lautan. Dari segi bentuknya sangat jelas filosofi Kerajaan Gowa, bahwa penyu dapat hidup di darat maupun di laut. Begitu pun dengan Kerajaan Gowa yang berjaya di daratan maupun di lautan. Nama asli benteng ini adalah Benteng Ujung Pandang, biasa juga orang Gowa-Makassar menyebut benteng ini dengan sebutan Benteng Panyyua yang merupakan markas pasukan katak Kerajaan Gowa. Kerajaan Gowa-Tallo akhirnya menandatangani perjanjian Bungayya yang salah satu pasalnya mewajibkan Kerajaan Gowa untuk menyerahkan benteng ini kepada Belanda. Pada saat Belanda menempati benteng ini, nama Benteng Ujung Pandang diubah menjadi Fort Rotterdam. Cornelis Speelman sengaja memilih nama Fort Rotterdam untuk mengenang daerah kelahirannya di Belanda. Benteng ini kemudian digunakan oleh Belanda sebagai pusat penampungan rempah-rempah di Indonesia bagian timur. Di kompleks Benteng Ujung Pandang kini terdapat Museum La Galigo yang di dalamnya terdapat banyak referensi mengenai sejarah kebesaran Makassar (Gowa-Tallo) dan daerah-daerah lainnya yang ada di Sulawesi Selatan. Sebagian besar gedung benteng ini masih utuh dan menjadi salah satu objek wisata di Kota Makassar.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kota_Makassar"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.engelfriet.net/Alie/Hans/fortrotterdam.htm"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Fort_Rotterdam"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Garuda_Wisnu_Kencana -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Garuda_Wisnu_Kencana">
+        <rdfs:label>Garuda Wisnu Kencana</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Bali"/>
+        <dbpedia-owl:abstract>Taman Budaya Garuda Wisnu Kencana, disingkat GWK, adalah sebuah taman wisata di bagian selatan pulau Bali. Taman wisata ini terletak di tanjung Nusa Dua, Kabupaten Badung, kira-kira 40 kilometer di sebelah selatan Denpasar, ibu kota provinsi Bali. Di areal taman budaya ini, direncanakan akan didirikan sebuah landmark atau maskot Bali, yakni patung berukuran raksasa Dewa Wisnu yang sedang menunggangi tunggangannya, Garuda, setinggi 12 meter. Area Taman Budaya Garuda Wisnu Kencana berada di ketinggian 146 meter di atas permukaan tanah atau 263 meter di atas permukaan laut. Di kawasan itu terdapat juga Patung Garuda yang tepat di belakang Plaza Wisnu adalah Garuda Plaza di mana patung setinggi 18 meter Garuda ditempatkan sementara. Pada saat ini, Garuda Plaza menjadi titik fokus dari sebuah lorong besar pilar berukir batu kapur yang mencakup lebih dari 4000 meter persegi luas ruang terbuka yaitu Lotus Pond. Pilar-pilar batu kapur kolosal dan monumental patung Lotus Pond Garuda membuat ruang yang sangat eksotis. Dengan kapasitas ruangan yang mampu menampung hingga 7000 orang, Lotus Pond telah mendapatkan reputasi yang baik sebagai tempat sempurna untuk mengadakan acara besar dan internasional. Terdapat juga patung tangan Wisnu yang merupakan bagian dari patung Dewa Wisnu. Ini merupakan salah satu langkah lebih dekat untuk menyelesaikan patung Garuda Wisnu Kencana lengkap. Karya ini ditempatkan sementara di daerah Tirta Agung.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Badung"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/night-in-garuda-wisnu-kencana.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Budaya_Garuda_Wisnu_Kencana"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Girimanik -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Girimanik">
+        <rdfs:label>Girimanik</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Girimanik merupakan kawasan wisata alam yang berudara sejuk dengan panorama alam yang sangat indah. Di kawasan wisata ini terdapat tiga buah air terjun yang dinamakan Air Terjun Manik Moyo, Tinjo Moyo, serta Condromoyo. Air Terjun Manik Moyo mempunyi ketinggian 70 meter sedangkan Air Terjun Tinjo Moyo mempunyai ketinggian 30 meter. Tidak jauh dari Air Terjun Manik Moyo terdapat sebuah tempat sakral peninggalan atau petilasan Raden Mas Said yang dikenal dengan nama Batu Resi.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Wonogiri"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Setren,_Slogohimo,_Wonogiri"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Girimanik"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Gorontalo -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Gorontalo">
+        <rdfs:label>Gorontalo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Grojogan_Sewu -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Grojogan_Sewu">
+        <rdfs:label>Grojogan sewu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Grojogan Sewu merupakan salah satu air terjun yang berada di Jawa Tengah. Terletak di Kecamatan Tawangmangu, Kabupaten Karanganyar, Jawa Tengah. Air terjun Grojogan Sewu terletak di lereng Gunung Lawu. Grojogan Sewu terletak sekitar 27 km di sebelah timur Kota Karanganyar. Air terjun Grojogan Sewu merupakan bagian dari Hutan Wisata Grojogan Sewu. Grojogan Sewu berarti air terjun seribu. Meski air terjun di sini tidak berjumlah seribu, tetapi ada beberapa titik air terjun yang dapat dinikmati di sini. Air terjun tertinggi yang ada tingginya sekitar 80 meter. Ada pula air terjun yang tidak terlalu tinggi tetapi pancurannya meluas dan membentuk cabang-cabang. Bila sedang musim hujan, sekeliling tebing akan dihujani air terjun, tetapi saat musim panas, banyak air terjun yang kering. Hutan Wisata Grojogan Sewu memiliki luas 20 Ha. Kawasan hutan ini banyak ditumbuhi berbagai jenis pohon hutan dan dihuni oleh sekelompok kera jinak. Beberapa fasilitas dari hutan wisata ini adalah Taman Binatang Hutan, kolam renang, tempat istirahat, kios makanan, kios buah-buahan dan cinderamata, mushola dan MCK.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Karanganyar"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;kumpulan.info/wisata/tempat-wisata/53-tempat-wisata/93-grojogan-sewu.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Grojogan_Sewu"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="https://teamtouring.net/grojogan-sewu-tawangmangu-karanganyar.html"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Gua_Latea -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Gua_Latea">
+        <rdfs:label>Gua Latea</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tengah"/>
+        <dbpedia-owl:abstract>Gua Latea terletak di pegunungan Parere, provinsi Sulawesi Tengah. Di situlah dulu suku Pamona, penduduk asli Poso, mengubur orang. Adat ini sudah tidak berlaku lagi sejak abad ke-19. Gua terdiri dari dua bagian. Yang pertama terletak di bawah dan berisikan 8 peti mati dan 36 kerangka manusia. Yang kedua terletak di atas dan berisikan 34 peti mati dan 47 kerangka manusia. Gua dipugar pada tahun 1994. Gua Latea terletak 2 kilometer dari jalan raya Tentena, ibukota Kecamatan Pamona Utara di Kabupaten Poso.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Parere"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Suku_Pamona"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Gua_Latea"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Gundaling -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Gundaling">
+        <rdfs:label>Gundaling</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Utara"/>
+        <dbpedia-owl:abstract>Gundaling adalah sebuah bukit di Berastagi, Kabupaten Karo, Sumatera Utara. Gundaling merupakan objek wisata di Berastagi. Gundaling terletak di 1.575 meter dari permukaan laut. Di Gundaling dapat terlihat Gunung Sibayak dan Gunung Sinabung.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Berastagi,_Karo"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Karo"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Gundaling"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Gunung_Bromo -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Gunung_Bromo">
+        <rdfs:label>Gunung Bromo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Timur"/>
+        <dbpedia-owl:abstract>Gunung Bromo, merupakan gunung berapi yang masih aktif dan paling terkenal sebagai obyek wisata di Jawa Timur. Sebagai sebuah obyek wisata, Gunung Bromo menjadi menarik karena statusnya sebagai gunung berapi yang masih aktif. Bromo mempunyai ketinggian 2.392 meter di atas permukaan laut itu berada dalam empat wilayah, yakni Kabupaten Probolinggo, Pasuruan, Lumajang, dan Kabupaten Malang. Bentuk tubuh Gunung Bromo bertautan antara lembah dan ngarai dengan kaldera atau lautan pasir seluas sekitar 10 kilometer persegi. Gunung Bromo mempunyai sebuah kawah dengan garis tengah ± 800 meter (utara-selatan) dan ± 600 meter (timur-barat). Sedangkan daerah bahayanya berupa lingkaran dengan jari-jari 4 km dari pusat kawah Bromo.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgelevationM>2329</http:id.dbpedia.orgelevationM>
+        <http:id.dbpedia.orglastEruption>2019</http:id.dbpedia.orglastEruption>
+        <http:id.dbpedia.orglabelPosition>right</http:id.dbpedia.orglabelPosition>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Indonesia"/>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Jawa"/>
+        <http:id.dbpedia.orgtype rdf:resource="&http;id.dbpedia.org/page/Stratovolcano"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/panorama-alam-kawah-gunung-bromo.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Gunung_Bromo"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Gunung_Ranai -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Gunung_Ranai">
+        <rdfs:label>Gunung Ranai</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Riau"/>
+        <dbpedia-owl:abstract>Gunung Ranai adalah gunung yang terletak di pulau Ranai, Kabupaten Natuna, Provinsi Kepulauan Riau. Gunung Ranai merupakan gunung dataran rendah, sebab ketinggiannya berkisar antara 300—1.035 meter di atas permukaan laut (dpl). Meskipun demikian, para pelancong yang mendaki gunung ini akan menemukan fenomena menarik, yaitu gradasi jenis-jenis tanaman dari hutan dataran rendah hingga hutan dataran atas. Pada ketinggian tertentu, para pendaki akan menemukan tipe-tipe vegetasi yang memperlihatkan ciri khas pegunungan dataran atas (gunung dengan ketinggian rata-rata 2.000 meter dpl). Untuk mencapai puncak Gunung Ranai, para pendaki harus melampaui tiga puncak berupa tebing batu dengan ketinggian yang berbeda-beda. Puncak pertama bernama Puncak Serendit dengan ketinggian 968 meter dpl. Puncak ini merupakan gugusan tebing dengan tinggi mencapai 100 meter. Puncak selanjutnya adalah Puncak Erik Samali yang berada pada ketinggian 999 meter dpl. Puncak ini merupakan tebing kedua dengan tinggi tebing sekitar 150 meter. Sementara puncak ketiga (puncak tertinggi) bernama Puncak Datuk Panglima Husin, terletak pada ketinggian 1.035 meter dpl. Seperti dua puncak sebelumnya, Puncak Datuk Panglima Husin juga merupakan tebing dengan ketinggian kira-kira 200 meter. Gunung Ranai memiliki tiga puncak yaitu: Puncak Serendit (968 meter) Puncak Erik Samali (999 meter) Puncak Datuk Panglima Husin (1,035 meter)</dbpedia-owl:abstract>
+        <dbpedia-owl:elevation>1035.000000</dbpedia-owl:elevation>
+        <http:id.dbpedia.orgtype>Gunung Tidak Berapi</http:id.dbpedia.orgtype>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Natuna"/>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Pulau_Ranai"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Gunung_Ranai"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Istana_Maimun -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Istana_Maimun">
+        <rdfs:label>Istana Maimun</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Utara"/>
+        <dbpedia-owl:abstract>Istana Maimun adalah salah satu dari ikon kota Medan, Sumatera Utara, terletak di kelurahan Sukaraja, kecamatan Medan Maimun. Didesain oleh arsitek Italia dan dibangun oleh Sultan Deli, Makmun Al Rasyid Perkasa Alamsyah pada 1888, Istana Maimun memiliki luas sebesar 2.772 m dan 30 ruangan. Istana Maimun menjadi tujuan wisata bukan hanya karena usianya yang tua, namun juga desain interiornya yang unik, memadukan unsur-unsur warisan kebudayaan Melayu, dengan gaya Islam, Spanyol, India dan Italia, namun sayang keadaanya kurang terurus sekarang. Jika kita melewati tempat ini pada sore hari, kita bahkan bisa melihat anak-anak bermain sepak bola di halaman istana ini.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kategori:Kota_Medan"/>
+        <http:id.dbpedia.orgcaption rdf:resource="&http;id.dbpedia.org/page/Kesultanan_Deli"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;kotawisataindonesia.com/wisata-istana-maimun-palace"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.pemkomedan.go.id/wis_mai.htm"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.trekearth.com/gallery/Asia/Indonesia/photo72777.htm"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Istana_Maimun"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Istana_Malige -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Istana_Malige">
+        <rdfs:label>Istana  Malige</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tenggara"/>
+        <dbpedia-owl:abstract>Istana Sultan Buton (disebut Kamali atau Malige) meskipun didirikan hanya dengan saling mengait, tanpa tali pengikat ataupun paku, dapat berdiri dengan kokoh dan megah di atas sandi yang menjadi landasan dasarnya. Rumah adat Buton atau Buton merupakan bangunan di atas tiang, dan seluruhnya dari bahan kayu. Bangunannya terdiri dari empat tingkat atau empat lantai. Ruang lantai pertama lebih luas dari lantai kedua. Sedangkan lantai keempat lebih besar dari lantai ketiga, jadi makin ke atas makin kecil atau sempit ruangannya, tapi di lantai keempat sedikit lebih melebar. Seluruh bangunan tanpa memakai paku dalam pembuatannya, melainkan memakai pasak atau paku kayu. Tiang-tiang depan terdiri dari 5 buah yang berjajar ke belakang sampai delapan deret, hingga jumlah seluruhnya adalah 40 buah tiang. Tiang tengah menjulang ke atas dan merupakan tiang utama disebut Tutumbu yang artinya tumbuh terus. Tiang-tiang ini terbuat dari kayu wala dan semuanya bersegi empat. Untuk rumah rakyat biasa, tiangnya berbentuk bulat. Biasanya tiang-tiang ini puncaknya terpotong. Dengan melihat jumlah tiang sampingnya dapat diketahui siapa atau apa kedudukan si pemilik. Rumah adat yang mempunyai tiang samping 4 buah berarti rumah tersebut terdiri dari 3 petak merupakan rumah rakyat biasa. Rumah adat bertiang samping 6 buah akan mempunyai 5 petak atau ruangan, rumah ini biasanya dimiliki oleh pegawai Sultan atau rumah anggota adat kesultanan Buton. Sedangkan rumah adat yang mempunyai tiang samping 8 buah berarti rumah tersebut mempunyai 7 ruangan dan ini khusus untuk rumah Sultan Buton.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;greatbuton.blogspot.com/"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.sultraprov.go.id/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Istana_Malige"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Istano_Basa -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Istano_Basa">
+        <rdfs:label>Istano Basa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Barat"/>
+        <dbpedia-owl:abstract>Istano Basa yang lebih terkenal dengan nama Istana Pagaruyung, adalah sebuah istana yang terletak di kecamatan Tanjung Emas, kota Batusangkar, kabupaten Tanah Datar, Sumatera Barat. Istana ini merupakan obyek wisata budaya yang terkenal di Sumatera Barat. Istano Basa yang berdiri sekarang sebenarnya adalah replika dari yang asli. Istano Basa asli terletak di atas bukit Batu Patah dan terbakar habis pada sebuah kerusuhan berdarah pada tahun 1804. Istana tersebut kemudian didirikan kembali namun kembali terbakar tahun 1966. Proses pembangunan kembali Istano Basa dilakukan dengan peletakan tunggak tuo (tiang utama) pada 27 Desember 1976 oleh Gubernur Sumatera Barat waktu itu, Harun Zain. Bangunan baru ini tidak didirikan di tapak istana lama, tetapi di lokasi baru di sebelah selatannya.. Pada akhir 1970-an, istana ini telah bisa dikunjungi oleh umum.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Batusangkar"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Istana_Basa_Paguruyung"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jalan_Malioboro -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jalan_Malioboro">
+        <rdfs:label>Jalan Malioboro</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kota_Yogyakarta"/>
+        <dbpedia-owl:abstract>Jalan Malioboro adalah nama salah satu jalan dari tiga jalan di Kota Yogyakarta yang membentang dari Tugu Yogyakarta hingga ke perempatan Kantor Pos Yogyakarta. Secara keseluruhan terdiri dari Jalan Pangeran Mangkubumi, Jalan Malioboro dan Jalan Jend. A. Yani. Jalan ini merupakan poros Garis Imajiner Kraton Yogyakarta. Terdapat beberapa obyek bersejarah di kawasan tiga jalan ini antara lain Tugu Yogyakarta, Stasiun Tugu, Gedung Agung, Pasar Beringharjo, Benteng Vredeburg dan Monumen Serangan Oemoem 1 Maret. Jalan Malioboro sangat terkenal dengan para pedagang kaki lima yang menjajakan kerajinan khas jogja dan warung-warung lesehan di malam hari yang menjual makanan gudeg khas jogja serta terkenal sebagai tempat berkumpulnya para Seniman-seniman-seniman yang sering mengekpresikan kemampuan mereka seperti bermain musik, melukis, hapening art, pantomim dan lain-lain disepanjang jalan ini.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Benteng_Vredeburg"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gedung_Agung"/>
+        <http:id.dbpedia.orgaddress rdf:resource="&http;id.dbpedia.org/page/Hotel_Inna_Garuda"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Monumen_Serangan_Oemoem_1_Maret"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pasar_Beringharjo"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Stasiun_Tugu"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Tugu_Yogyakarta"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jam_Gadang -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jam_Gadang">
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Barat"/>
+        <dbpedia-owl:abstract>Jam Gadang adalah nama untuk menara jam yang terletak di pusat kota Bukittinggi, Sumatera Barat, Indonesia. Menara jam ini memiliki jam dengan ukuran besar di empat sisinya sehingga dinamakan Jam Gadang, sebutan bahasa Minangkabau yang berarti &quot;jam besar&quot;. Selain sebagai pusat penanda kota Bukittinggi, Jam Gadang juga telah dijadikan sebagai objek wisata dengan diperluasnya taman di sekitar menara jam ini. Taman tersebut menjadi ruang interaksi masyarakat baik di hari kerja maupun di hari libur. Acara-acara yang sifatnya umum biasanya diselenggarakan di sekitar taman dekat menara jam ini.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orglocationTown>Kelurahan Benteng Pasar Atas, Kecamatan Guguk Panjang, Kota Bukittinggi, Sumatera Barat</http:id.dbpedia.orglocationTown>
+        <http:id.dbpedia.orglocationCountry rdf:resource="&http;id.dbpedia.org/page/Indonesia"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.imagebali.net/detail-artikel/811-desain-menara-gadang-di-bukit-tinggi.php"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.indonesia.travel/en/destination/253/jam-gadang"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www1.kompas.com/readkotatua/xml/2010/03/23/09183928/Jam.Gadang..Kini.Tanpa.Patung.Hermes.dan.Harimau"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Jam_Gadang"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jambi -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jambi">
+        <rdfs:label>Jambi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jawa_Barat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jawa_Barat">
+        <rdfs:label>Jawa Barat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jawa_Tengah -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jawa_Tengah">
+        <rdfs:label>Jawa Tengah</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jawa_Timur -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jawa_Timur">
+        <rdfs:label>Jawa Timur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Jembatan_Ampera -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Jembatan_Ampera">
+        <rdfs:label>Jembatan Ampera</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Selatan"/>
+        <dbpedia-owl:abstract>Jembatan Ampera adalah sebuah jembatan di Kota Palembang, Provinsi Sumatera Selatan, Indonesia. Jembatan Ampera, yang telah menjadi semacam lambang kota, terletak di tengah-tengah kota Palembang, menghubungkan daerah Seberang Ulu dan Seberang Ilir yang dipisahkan oleh Sungai Musi.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgbridgeName>Jembatan Ampera</http:id.dbpedia.orgbridgeName>
+        <http:id.dbpedia.orgcarries>4</http:id.dbpedia.orgcarries>
+        <http:id.dbpedia.orglocale rdf:resource="&http;id.dbpedia.org/page/Kota_Palembang"/>
+        <http:id.dbpedia.orgcrosses rdf:resource="&http;id.dbpedia.org/page/Sungai_Musi"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Jembatan_Ampera"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kalimantan_Barat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kalimantan_Barat">
+        <rdfs:label>Kalimantan Barat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kalimantan_Selatan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kalimantan_Selatan">
+        <rdfs:label>Kalimantan Selatan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kaliurang -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kaliurang">
+        <rdfs:label>Kaliurang</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kota_Yogyakarta"/>
+        <dbpedia-owl:abstract>Kaliurang yang secara harfiah dalam bahasa Indonesia berarti &quot;Sungai Udang&quot;, adalah sebuah tempat wisata yang terletak di provinsi Yogyakarta, persisnya di Kabupaten Sleman, di perbatasan dengan provinsi Jawa Tengah. Akses menuju ke Kaliurang sangat mudah. Setidaknya dengan jalan kaki atau menumpang angkutan bus, kol (Colt), taxi, ojek atau becak (jarang yang mau), melewati Jalan Kaliurang. Jarak Kaliurang ke Yogyakarta kurang dari 1 jam perjalanan, dan ke Surakarta kurang dari 3 jam perjalanan. Kaliurang terletak didaerah dataran tinggi banyak resor atau tempat peristirahatan karena sejuknya udaranya. Maka di sini terdapat banyak vila-vila penginapan, kebanyakan orang sekitar menyebutnya wisma. Tempat yang paling banyak dikunjungi oleh wisatawan baik dalam maupun luar negeri adalah Tlaga Putri. Di Kaliurang terdapat sebuah bangunan bersejarah yaitu Wisma Kaliurang. Di sana pernah terjadi Perundingan Khusus antara Republik Indonesia dengan Komisi Tiga Negara pada 13 Januari 1948. Perundingan Kaliurang ini melahirkan Notulen Kaliurang. Republik Indonesia diwakili oleh Presiden Soekarno, Wapres Moh Hatta, PM Syahrir dan Jendral Soedirman. Sedangkan Delegasi Belanda diwakili oleh Paul Van Zeeland (Belgia), Richard Kirby (Australia), dan Dr. Frank Graham (AS). Di dalam perundingan, Frank Graham mengucapkan ungkapan populer, yaitu &quot;You are what you are from bullets to the ballots.&quot;</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Sleman"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Perundingan_Kaliurang"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/kaliurang.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Kaliurang"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kebun_Raya_Bogor -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kebun_Raya_Bogor">
+        <rdfs:label>Kebun Raya Bogor</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Barat"/>
+        <dbpedia-owl:abstract>Kebun Raya Bogor atau Kebun Botani Bogor adalah sebuah kebun botani besar yang terletak di Kota Bogor, Indonesia. Luasnya mencapai 87 hektare dan memiliki 15.000 jenis koleksi pohon dan tumbuhan. Saat ini Kebun Raya Bogor ramai dikunjungi sebagai tempat wisata, terutama hari Sabtu dan Minggu. Di sekitar Kebun Raya Bogor tersebar pusat-pusat keilmuan yaitu Herbarium Bogoriense, Museum Zoologi Bogor, dan PUSTAKA.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orglongitude>10679</http:id.dbpedia.orglongitude>
+        <http:id.dbpedia.orgmapType>Indonesia</http:id.dbpedia.orgmapType>
+        <http:id.dbpedia.orglatitude>-659</http:id.dbpedia.orglatitude>
+        <http:id.dbpedia.orgcaption>Lambang Kebung Raya Bogor</http:id.dbpedia.orgcaption>
+        <http:id.dbpedia.orgluas>87 Hektare</http:id.dbpedia.orgluas>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kategori:Kota_Bogor"/>
+        <http:id.dbpedia.orgjenisWisata rdf:resource="&http;id.dbpedia.org/page/Kebun_botani"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/menikmati-sejuknya-kebun-raya-bogor.html"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/sejarah-kebun-raya-bogor.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Kebun_Raya_Bogor"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kepulauan_Bangka_Belitung -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kepulauan_Bangka_Belitung">
+        <rdfs:label>Kepulauan Bangka Belitung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Kota_Yogyakarta -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Kota_Yogyakarta">
+        <rdfs:label>Kota Yogyakarta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Lampung -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Lampung">
+        <rdfs:label>Lampung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Lawang_Sewu -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Lawang_Sewu">
+        <rdfs:label>Lawang sewu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Lawang Sewu merupakan sebuah gedung di Semarang, Jawa Tengah yang merupakan kantor dari Nederlands-Indische Spoorweg Maatschappij atau NIS. Dibangun pada tahun 1904 dan selesai pada tahun 1907. Terletak di bundaran Tugu Muda yang dahulu disebut Wilhelminaplein. Masyarakat setempat menyebutnya Lawang Sewu (Seribu Pintu) dikarenakan bangunan tersebut memiliki pintu yang sangat banyak. Kenyataannya, pintu yang ada tidak sampai seribu. Bangunan ini memiliki banyak jendela yang tinggi dan lebar, sehingga masyarakat sering menganggapnya sebagai pintu (lawang). Bangunan kuno dan megah berlantai dua ini setelah kemerdekaan dipakai sebagai kantor Djawatan Kereta Api Repoeblik Indonesia (DKARI) atau sekarang PT Kereta Api Indonesia. Selain itu pernah dipakai sebagai Kantor Badan Prasarana Komando Daerah Militer dan Kantor Wilayah (Kanwil) Kementerian Perhubungan Jawa Tengah. Pada masa perjuangan gedung ini memiliki catatan sejarah tersendiri yaitu ketika berlangsung peristiwa Pertempuran lima hari di Semarang. Gedung tua ini menjadi lokasi pertempuran yang hebat antara pemuda AMKA atau Angkatan Muda Kereta Api melawan Kempetai dan Kidobutai, Jepang. Maka dari itu Pemerintah Kota Semarang dengan Surat Keputusan Wali Kota Nomor. 650/50/1992, memasukan Lawang Sewu sebagai salah satu dari 102 bangunan kuno atau bersejarah di Kota Semarang yang patut dilindungi. Saat ini bangunan tua tersebut telah mengalami tahap konservasi dan revitalisasi yang dilakukan oleh Unit Pelestarian benda dan bangunan bersejarah PT Kereta Api Persero.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Kategori:Bangunan_Belanda_di_Indonesia"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kota_Semarang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pertempuran_lima_hari_di_Semarang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Tugu_Muda"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Lawang_Sewu"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="https://teamtouring.net/wisata-sejarah-dan-fotografi-di-lawang-sewu.html"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Lubang_Jepang_Bukittinggi -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Lubang_Jepang_Bukittinggi">
+        <rdfs:label>Lubang Jepang</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sumatera_Barat"/>
+        <dbpedia-owl:abstract>Lubang Jepang Bukittinggi adalah salah satu objek wisata sejarah yang ada di Kota Bukittinggi, Sumatera Barat, Indonesia. Lubang Jepang merupakan sebuah terowongan (bunker) perlindungan yang dibangun tentara pendudukan Jepang sekitar tahun 1942 untuk kepentingan pertahanan.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;upload.wikimedia.org/wikipedia/commons/thumb/7/79/Japanese_Tunnel_Bukittinggi_Indonesia.jpg/200px-Japanese_Tunnel_Bukittinggi_Indonesia.jpg"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Lubang_Jepang_Bukittinggi"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Museum_Lambung_Mangkurat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Museum_Lambung_Mangkurat">
+        <rdfs:label>Museum Lambung Mangkurat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Selatan"/>
+        <http:id.dbpedia.orgbuildingName>Museum Lambung Mangkurat</http:id.dbpedia.orgbuildingName>
+        <http:id.dbpedia.orgaddress>Jalan Ahmad Yani km 35,5 Kecamatan Banjarbaru Utara, Banjarbaru</http:id.dbpedia.orgaddress>
+        <dbpedia-owl:abstract>Museum Lambung Mangkurat adalah sebuah museum provinsi Kalimantan Selatan yang terletak di kota Banjarbaru, Kalimantan Selatan. Alamat museum ini di Jalan Jenderal Ahmad Yani km 36 Kota Banjarbaru.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orglocation>Banjarbaru,Indonesia</http:id.dbpedia.orglocation>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Banjarbaru_Utara,_Banjarbaru"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Museum_Lambung_Mangkurat"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Museum_Tekstil -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Museum_Tekstil">
+        <rdfs:label>Museum Tekstil</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daerah_Khusus_Ibukota_Jakarta"/>
+        <dbpedia-owl:abstract>Museum Tekstil menempati gedung tua di Jalan K.S. Tubun / Petamburan No. 4 Tanah Abang, Jakarta Barat Gedungnya sendiri pada mulanya adalah rumah pribadi seorang warga negara Perancis yang dibangun pada abad ke-19. Kemudian dibeli oleh konsul Turki bernama Abdul Azis Almussawi Al Katiri yang menetap di Indonesia. Selanjutnya tahun 1942 dijual kepada Dr. Karel Christian Cruq. Di masa perjuangan kemerdekaan Indonesia, gedung ini menjadi markas Barisan Keamanan Rakyat (BKR) dan tahun 1947 didiami oleh Lie Sion Pin. Pada tahun 1952 dibeli oleh Departemen Sosial dan pada tanggal 25 Oktober 1975 diserahkan kepada Pemda DKI Jakarta yang untuk kemudian pada tanggal 28 Juni 1976 diresmikan penggunaannya oleh Ibu Tien Soeharto sebagai Museum Tekstil.</dbpedia-owl:abstract>
+        <dbpedia-owl:locatedInArea rdf:resource="&http;id.dbpedia.org/page/Tanah_Abang"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Museum_Tekstil"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Nusa_Tenggara_Barat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Nusa_Tenggara_Barat">
+        <rdfs:label>Nusa Tenggara Barat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Nusa_Tenggara_Timur -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Nusa_Tenggara_Timur">
+        <rdfs:label>Nusa Tenggara Timur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Batakan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Batakan">
+        <rdfs:label>Pantai Batakan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Selatan"/>
+        <dbpedia-owl:abstract>Pantai Batakan adalah sebuah pantai di kecamatan Panyipatan, Kabupaten Tanah Laut, Kalimantan Selatan, Indonesia. Di lepas pantai Batakan dapat kita jumpai Pulau Datu yang merupakan obyek wisata ziarah yaitu makam seorang ulama yang juga dianggap seorang wali Allah.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Panyipatan,_Tanah_Laut"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Pulau_Datu"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Batakan"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Kuta -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Kuta">
+        <rdfs:label>Pantai Kuta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Bali"/>
+        <dbpedia-owl:abstract>Pantai Kuta adalah sebuah tempat pariwisata yang terletak di sebelah selatan Denpasar, ibu kota Bali, Indonesia. Kuta terletak di Kabupaten Badung. Daerah ini merupakan sebuah tujuan wisata turis mancanegara, dan telah menjadi objek wisata andalan Pulau Bali sejak awal 70-an. Pantai Kuta sering pula disebut sebagai pantai matahari terbenam (sunset beach) sebagai lawan dari pantai Sanur. Sebelum menjadi objek wisata, Kuta merupakan sebuah pelabuhan dagang. Di mana produk dari lokal diperdagangkan kepada pembeli dari luar Bali. Pada abad ke-19, Mads Lange, seorang pedagang Denmark, datang ke Bali dan mendirikan basis perdagangan di Kuta. Keahliannya dalam bernegosiasi, membuat Mads Lange sebagai pedagang yang terkenal antara raja-raja Bali dengan Belanda. Hugh Mahbett juga telah menerbitkan sebuah buku berjudul “Praise to Kuta” yang berisi ajakan kepada masyarakat setempat untuk menyiapkan fasilitas akomodasi wisata. Tujuannya untuk mengantisipasi ledakan wisatawan yang berkunjung ke Bali. Buku itu kemudian menginspirasi banyak orang untuk membangun fasilitas wisata seperti penginapan, restoran dan tempat hiburan. Di Kuta terdapat banyak pertokoan, restoran dan tempat permandian serta menjemur diri. Selain keindahan pantainya, pantai Kuta juga menawarkan berbagai macam jenis hiburan lain misalnya bar dan restoran di sepanjang pantai menuju pantai Legian. Rosovivo, Ocean Beach Club, Kamasutra, adalah beberapa club paling ramai di sepanjang pantai Kuta. Pantai ini juga memiliki ombak yang cukup bagus untuk olahraga selancar (surfing), terutama bagi peselancar pemula. Lapangan Udara I Gusti Ngurah Rai terletak tidak jauh dari Kuta.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Badung"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Kuta"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Losari -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Losari">
+        <rdfs:label>Pantai Losari</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Selatan"/>
+        <dbpedia-owl:abstract>Pantai Losari adalah sebuah pantai yang terletak di sebelah barat kota Makassar. Pantai ini menjadi tempat bagi warga Makassar untuk menghabiskan waktu pada pagi, sore dan malam hari menikmati pemandangan matahari tenggelam yang sangat indah. Dahulu, pantai ini dikenal dengan pusat makanan laut dan ikan bakar di malam hari (karena para penjual dan pedagang hanya beroperasi pada malam hari), serta disebut-sebut sebagai warung terpanjang di dunia (karena warung-warung tenda berjejer di sepanjang pantai yang panjangnya kurang lebih satu kilometer). Salah satu penganan khas Makassar yang dijajak di warung-warung tenda itu adalah pisang epe (pisang mentah yang dibakar, kemudian dibuat pipih, dan dicampur dengan air gula merah. Paling enak dimakan saat masih hangat). Saat ini warung-warung tenda yang menjajakan makanan laut tersebut telah dipindahkan pada sebuah tempat di depan rumah jabatan Walikota Makassar yang juga masih berada di sekitar Pantai Losari. Pada sore hari, semua orang bisa menikmati proses atau detik-detik tenggelamnya matahari sunset.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kota_Makassar"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Losari"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Matras -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Matras">
+        <rdfs:label>Pantai Matras</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kepulauan_Bangka_Belitung"/>
+        <dbpedia-owl:abstract>Pantai Matras adalah pantai yang terletak di Desa Sinar Baru, Kecamatan Sungai Liat. Pantai ini sering kali dijuluki sebagai Pantai Surga karena keindahannya.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.visitbangkabelitung.com/pantai-matras"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Matras"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Pangandaran -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Pangandaran">
+        <rdfs:label>Pantai Pangandaran</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Barat"/>
+        <dbpedia-owl:abstract>Pantai Pangandaran merupakan sebuah objek wisata andalan Kabupaten Pangandaran yang terletak di sebelah tenggara Jawa Barat, tepatnya di Desa Pananjung, Kecamatan Pangandaran, Kabupaten Pangandaran, Provinsi Jawa Barat. Pantai ini dinobatkan sebagai pantai terbaik di Pulau Jawa menurut AsiaRooms.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Pangandaran"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.pangandaran.org/"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.tempatwisatadijawabarat.com/2012/09/pangandaran.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Pangandaran"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Parai_Tenggiri -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Parai_Tenggiri">
+        <rdfs:label>Pantai Parai Tenggiri</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kepulauan_Bangka_Belitung"/>
+        <dbpedia-owl:abstract>Pantai Parai Tenggiri adalah pantai yang terletak di kawasan daerah Matras, Sungailiat, Bangka Belitung. Pantai ini sering dijadikan obyek wisata dan terkenal dengan batuan granit berbagai ukuran. Fasilitas yang tersedia antara lain hotel, outbound serta permainan olah raga air.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/kemewahan-pantai-parai-tenggiri.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Parai_Tenggiri"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Popoh -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Popoh">
+        <rdfs:label>Pantai Popoh</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Timur"/>
+        <dbpedia-owl:abstract>Pantai Popoh, adalah obyek wisata pantai yang terletak di pesisir Samudra Hindia Kabupaten Tulungagung, Jawa Timur, Indonesia. Pantai ini merupakan salah satu obyek wisata andalan Tulungagung. Popoh berada sekitar 30 km sebelah selatan kota Tulungagung. Kawasan Popoh berada di ujung timur Pegunungan Kidul. Pantai popoh merupakan pantai yang telah dikembangkan dengan baik oleh P.R. Retjo Pentung. Akses menuju pantai popoh dapat ditempuh dengan aman dan nyaman melalui jalan aspal. Pantai ini berbentuk teluk sehingga suasana tercipta suasana khas didalamnya. Air yang cukup tenang, angin laut yang tidak begitu kuat, dan keindahan gunung disekitar teluk telah menjadi daya tarik utama pantai ini.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Tulungagung"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Popoh"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Sanur -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Sanur">
+        <rdfs:label>Pantai Sanur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Bali"/>
+        <dbpedia-owl:abstract>Pantai Sanur adalah sebuah tempat pelancongan pariwisata yang terkenal di pulau Bali. Tempat ini letaknya adalah persis di sebelah timur kota Denpasar, ibukota Bali. Sanur berada di Kotamadya Denpasar. Karena memiliki ombak yang cukup tenang, maka pantai Sanur tidak bisa dipakai untuk surfing layaknya Pantai Kuta . Tak jauh lepas Pantai Sanur terdapat juga lokasi wisata selam dan snorkeling. Oleh karena kondisinya yang ramah, lokasi selam ini dapat digunakan oleh para penyelam dari semua tingkatan keahlian. Pantai Sanur juga dikenal sebagai Sunrise beach (pantai Matahari terbit) sebagai lawan dari Pantai Kuta. Karena lokasinya yang berada di sebelah timur pulau Bali, maka pantai Bali ini menjadi lokasi yang tepat untuk menikmati sunrise atau Matahari terbit. Hal ini menjadikan tempat wisata ini makin menarik, bahkan ada sebuah ruas di pantai Sanur ini yang bernama pantai Matahari Terbit karena pemandangan saat Matahari terbit sangat indah jika dilihat dari sana. Sepanjang pantai Bali ini menjadi tempat yang pas untuk melihat Matahari terbit. Apalagi sekarang sudah dibangun semacam sanderan yang berisi pondok-pondok mungil yang bisa dijadikan tempat duduk-duduk menunggu Matahari terbit. Selain itu, ombak di pantai ini relatif lebih tenang sehingga sangat cocok untuk ajang rekreasi pantai anak-anak dan tidak berbahaya. Selain itu, pengunjung bisa melihat Matahari terbit dengan berenang di pantai. Sebagian kawasan pantai ini mempunyai pasir berwarna putih yang eksotis. Dilengkapi dengan pohon pelindung, pengunjung bisa duduk-duduk sambil menikmati jagung bakar ataupun lumpia yang banyak dijajakan pedagang kaki lima. Sepanjang tempat wisata pantai Bali ini sekarang sudah dilengkapi dengan penunjang wisata berupa hotel, restoran ataupun kafe-kafe kecil serta art shop. Salah satu hotel tertua di Bali dibangun di pantai ini. Hotel ini bernama Ina Grand Bali Beach yang terletak persis di tepi pantai. Selain itu, sepanjang garis pantai juga dibangun semacam area pejalan kaki yang seringkali digunakan sebagai jalur jogging oleh wisatawan ataupun masyarakat lokal. Jalur ini terbentang ke arah selatan melewati pantai Shindu, pantai Karang hingga Semawang sehingga wisatawan bisa berolahraga sekaligus menikmati pemandangan pantai di pagi hari.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Denpasar"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Sanur"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Swarangan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Swarangan">
+        <rdfs:label>Pantai Swarangan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Selatan"/>
+        <dbpedia-owl:abstract>Pantai Swarangan adalah sebuah pantai di desa Swarangan, Kecamatan Jorong, Kabupaten Tanah Laut, Provinsi Kalimantan Selatan, Indonesia.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Jorong,_Tanah_Laut"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Tanah_Laut"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Swarangan,_Jorong,_Tanah_Laut"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Swarangan"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Pantai_Talise -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Pantai_Talise">
+        <rdfs:label>Pantai Talise</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tengah"/>
+        <dbpedia-owl:abstract>Pantai Talise terletak 2 km sebelah utara Kota Palu, ini merupakan salah satu obyek wisata utama di Kecamatan Palu Timur. Pantai ini merupakan tempat wisata utama di Kota Palu setelah Istana Pusat Sulawesi. Pantai ini membentang di Kota Palu hingga Kabupaten Donggala. Pada awal tahun 2005, pantai ini sepi orang selama tiga pekan menyusul merebaknya kemunculan isu tsunami pascagempa tektonik berkekuatan 6,2 skala richter yang mengguncang pada 24 Januari 2005.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kecamatan_Palu_Timur"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kota_Palu"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Pantai_Talise"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Papua -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Papua">
+        <rdfs:label>Papua</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Rawa_Pening -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Rawa_Pening">
+        <rdfs:label>Rawa Pening</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Tengah"/>
+        <dbpedia-owl:abstract>Rawa Pening (&quot;pening&quot; berasal dari &quot;bening&quot;) adalah danau sekaligus tempat wisata air di Kabupaten Semarang, Jawa Tengah. Dengan luas 2.670 hektare ia menempati wilayah Kecamatan Ambarawa, Bawen, Tuntang, dan Banyubiru. Rawa Pening terletak di cekungan terendah lereng Gunung Merbabu, Gunung Telomoyo, dan Gunung Ungaran. Danau ini mengalami pendangkalan yang pesat. Pernah menjadi tempat mencari ikan, kini hampir seluruh permukaan rawa ini tertutup eceng gondok. Gulma ini juga sudah menutupi Sungai Tuntang, terutama di bagian hulu. Usaha mengatasi spesies invasif ini dilakukan dengan melakukan pembersihan serta pelatihan pemanfaatan eceng gondok dalam kerajinan, namun tekanan populasi tumbuhan ini sangat tinggi. Menurut legenda, Rawa Pening terbentuk dari muntahan air yang mengalir dari bekas cabutan lidi yang dilakukan oleh Baru Klinthing. Cerita Baru Klinthing yang berubah menjadi anak kecil yang penuh luka dan berbau amis sehingga tidak diterima masyarakat dan akhirnya ditolong janda tua ini sudah berlalu. Rawa ini digemari sebagai obyek wisata pemancingan dan sarana olahraga air. Namun akhir-akhir ini, perahu nelayan bergerak pun sulit.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Ambarawa,_Semarang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Eceng_gondok"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Merbabu"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Telomoyo"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Ungaran"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;seputarsemarang.com/rawa-pening-4954/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Rawa_Pening"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Riau -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Riau">
+        <rdfs:label>Riau</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sulawesi_Selatan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sulawesi_Selatan">
+        <rdfs:label>Sulawesi Selatan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sulawesi_Tengah -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sulawesi_Tengah">
+        <rdfs:label>Sulawesi Tengah</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sulawesi_Tenggara -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sulawesi_Tenggara">
+        <rdfs:label>Sulawesi Tenggara</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sulawesi_Utara -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sulawesi_Utara">
+        <rdfs:label>Sulawesi utara</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sumatera_Barat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sumatera_Barat">
+        <rdfs:label>Sumatera Barat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sumatera_Selatan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sumatera_Selatan">
+        <rdfs:label>Sumatera Selatan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Sumatera_Utara -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Sumatera_Utara">
+        <rdfs:label>Sumatera Utara</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Impian_Jaya_Ancol -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Impian_Jaya_Ancol">
+        <rdfs:label>Taman Impian Jaya Ancol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daerah_Khusus_Ibukota_Jakarta"/>
+        <http:id.dbpedia.orgfasilitas>Pantai Duyung Cottages</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgfasilitas>Apartemen</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgfasilitas>Pantai dan Taman</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgfasilitas>Gelanggang Samudra</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgfasilitas>Wisata Kuliner</http:id.dbpedia.orgfasilitas>
+        <dbpedia-owl:abstract>Taman Impian Jaya Ancol merupakan sebuah objek wisata di Jakarta Utara. Sebagai komunitas pembaharuan kehidupan masyarakat yang menjadi kebanggaan bangsa. Senantiasa menciptakan lingkungan sosial yang lebih baik melalui sajian hiburan berkualitas yang berunsur seni, budaya dan pengetahuan, dalam rangka mewujudkan komunitas &apos;Life Re-Creation&apos; yang menjadi kebanggaan bangsa.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgjenisWisata>Wisata Pantai</http:id.dbpedia.orgjenisWisata>
+        <http:id.dbpedia.orgfasilitas>Hotel</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgcaption>Taman Impian Jaya Ancol</http:id.dbpedia.orgcaption>
+        <http:id.dbpedia.orgfasilitas>Dunia Fantasi</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgmulaiDibangun>1966</http:id.dbpedia.orgmulaiDibangun>
+        <http:id.dbpedia.orglongitude>106843</http:id.dbpedia.orglongitude>
+        <http:id.dbpedia.orglatitude>-61268</http:id.dbpedia.orglatitude>
+        <http:id.dbpedia.orgfasilitas>Sea World</http:id.dbpedia.orgfasilitas>
+        <http:id.dbpedia.orgfasilitas>Bowling</http:id.dbpedia.orgfasilitas>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.ancol.com"/>
+        <http:id.dbpedia.orgfasilitas rdf:resource="&http;id.dbpedia.org/page/Atlantis_Water_Adventure"/>
+        <http:id.dbpedia.orgfasilitas rdf:resource="&http;id.dbpedia.org/page/Dunia_Fantasi"/>
+        <http:id.dbpedia.orglokasi rdf:resource="&http;id.dbpedia.org/page/Jakarta_Utara"/>
+        <http:id.dbpedia.orgfasilitas rdf:resource="&http;id.dbpedia.org/page/Kereta_gantung"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Impian_Jaya_Ancol"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Mini_Indonesia_Indah -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Mini_Indonesia_Indah">
+        <rdfs:label>Taman Mini Indonesia Indah</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Daerah_Khusus_Ibukota_Jakarta"/>
+        <dbpedia-owl:abstract>Taman Mini Indonesia Indah (TMII) merupakan suatu kawasan taman wisata bertema budaya Indonesia di Jakarta Timur. Area seluas kurang lebih 150 hektar atau 1,5 kilometer persegi ini terletak pada koordinat 6°18′6.8″LS,106°53′47.2″BT. Taman ini merupakan rangkuman kebudayaan bangsa Indonesia, yang mencakup berbagai aspek kehidupan sehari-hari masyarakat 26 provinsi Indonesia (pada tahun 1975) yang ditampilkan dalam anjungan daerah berarsitektur tradisional, seta menampilkan aneka busana, tarian dan tradisi daerah. Disamping itu, di tengah-tengah TMII terdapat sebuah danau yang menggambarkan miniatur kepulauan Indonesia di tengahnya, kereta gantung, berbagai museum, dan Teater IMAX Keong Mas dan Teater Tanah Airku), berbagai sarana rekreasi ini menjadikan TMIII sebagai salah satu kawasan wisata terkemuka di ibu kota.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orglocation rdf:resource="&http;id.dbpedia.org/page/Museum_Indonesia"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.tamanmini.com/pesona_indonesia/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Mini_Indonesia_Indah"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Narmada -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Narmada">
+        <rdfs:label>taman Narmada</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Nusa_Tenggara_Barat"/>
+        <dbpedia-owl:abstract>Taman Narmada terletak di Desa Lembuak, Kecamatan Narmada, Kabupaten Lombok Barat atau sekitar 10 kilometer sebelah timur Kota Mataram, Provinsi Nusa Tenggara Barat, Indonesia. Taman yang luasnya sekitar 2 ha(hektar are) ini dibangun pada tahun 1727 oleh Raja Mataram Lombok, Anak Agung Ngurah Karang Asem, sebagai tempat upacara Pakelem yang diselenggarakan setiap purnama kelima tahun Caka(Oktober-November). Selain tempat upacara, Taman Narmada juga digunakan sebagai tempat peristirahatan keluarga raja pada saat musim kemarau. Nama Narmada diambil dari Narmadanadi, anak Sungai Gangga yang sangat suci di India. Bagi umat Hindu, air merupakan suatu unsur suci yang memberi kehidupan kepada semua makhluk di dunia ini. Air yang memancar dari dalam tanah(mata air) diasosiasikan dengan tirta amerta(air keabadian) yang memancar dari Kensi Sweta Kamandalu. Dahulu kemungkinan nama Narmada digunakan untuk menamai nama mata air yang membentuk beberapa kolam dan sebuah sungai di tempat tersebut. Lama-kelamaan digunakan untuk menyebut pura dan keseluruhan kompleks Taman Narmada. Taman Narmada yang sekarang ini adalah hasil pembangunan dan serangkaian perbaikan/pemugaran yang berlangsung dari waktu ke waktu. Sewaktu para petugas dari Direktorat Perlindungan dan Pembinaan Peninggalan Sejarah dan Purbakala bersama dengan para petugas Kantor Wilayah Depdikbud Nusa Tenggara Barat meneliti dan mengumpulkan data sebagai langkah awal pemugaran, mereka berpendapat bahwa pemugaran secara menyeluruh tidak mungkin dilakukan. Banyak bagian yang telah rusak terutama tebing-tebing kolam, taman, pagar maupun bangunan. Pada tahun 1980 sampai 1988 rekonstruksi Taman Narmada dapat diselesaikan. Setelah direkonstruksi oleh pemerintah melalui Ditjen Kebudayaan, Direktorat Perlindungan dan pembinaan Peninggalan Sejarah dan Purbakala, Departemen Pendidikan dan Kebudayaan, Taman Narmada dijadikan sebagai kompleks bangunan cagar budaya dengan daftar induk inventarisasi peninggalan sejarah dan purbapakala pusat nomor 1839. Dengan demikian, sesuai dengan peraturan yang berlaku kelestarian Taman Narmada dilindungi oleh pemerintah. Kompleks Taman Narmada Kompleks Taman Narmada yang ada di Lombok itu dapat dibagi menjadi beberapa bagian, yaitu gerbang utama, jabalkap, telaga kembar, gapura gelang/paduraksa, mukedes, telaga padmawangi, balai loji, balai terang, patandaan, bangunan sekepat, balai bancingah, Pura Kelasa dan Pura Lingsar. Berikut ini akan diuraikan bagian-bagian dari Taman Narmada dari gerbang utama. Gerbang utama yang berbentuk gapura bentar dan berada di sebelah utara. Setelah gerbang utama kita akan memasuki halaman jabalkap, yang di dalamnya terdapat telaga kembar. Di bagian selatan jabalkap terdapat sebuah gapura yang bernama Gapura Gelang atau Paduraksa yang menghubungkan antara halaman jabalkap dengan halaman mukedes. Pada halaman mukedes terdapat beberapa buah bangunan, antara lain Sanggah Pura, Balai Pamerajan dan Balai Loji(salah satu diantara bangunan kediaman raja). Di sebelah tenggara halaman mukedes terdapat gapura yang menuju ke halaman pasarean. Di halaman paseran ini terdapat juga Balai Loji, Telaga Padmawangi, Pawedayan, pawargan, Balai Terang. Balai Terang adalah sebuah bangunan yang berfungsi sebagai tempat istirahat/tidur raja, berbentuk panggung yang seluruhnya terbuat dari kayu. Bagian atas bangunan yang terbuka dipergunakan untuk menikmati pemandangan ke arah Meru pura di sebelah timurnya. Pintu dan jendela Balai Terang ini bermotif bulan tunggal dan tumbuh-tumbuhan. Di sebelah timur halaman pasarean terdapat Pura Kelasa atau Pura Narmada. Bentuk arsitekturnya menyerupai punden berundak. Bagian yang paling suci terdapat di halaman tengah pada undak yang paling atas (pura di Bali umumnya halaman paling suci adalah yang paling belakang). Pura ini tergolong pura jagat atau pura umum bagi semua penganut Hindu Dharma dan merupakan salah satu di antara delapan pura tua di Pulau Lombok. Pura Narmada terletak di atas tebing berundak-undak, sedang di bawah lembah tebing terdapat kolam duyung dan telaga segara anak. Sebelah selatan halaman pasarean terdapat halaman patandaan. Pada halaman patandaan ini terdapat dua bangunan sakapat yaitu sejenis wantilan atau panggung terbuka bertiang empat. Pada halaman inilah sering diselenggarakan berbagai pertunjukan. Sedangkan di sebelah selatan Patandaan terdapat halaman bancingah. Yang tertinggal di halaman ini sekarang hanyalah tembok keliling halaman dengan dua gapura bentar. Unsur-unsur bangunan yang lain sebenarnya masih banyak, antara lain pancuran sembilan (siwak) yang letaknya di atas Segara Anak. Bentuk bangunannya dorogancet dengan dua bagian terpisah menyerupai bangunan tradisional di Jawa Tengah. Bangunan ini termasuk bangunan sakral baik bagi penganut Hindu Dharma maupun penganut Waktu Tilu. Selain itu, ada pula Balai Petirtaan yang sumber mata airnya berasal dari Gunung Rinjani. Balai Petirtaan juga merupakan tempat pertemuan tiga sumber air, yakni Suranadi, Lingsar, dan Narmada. Karena mata airnya berasal dari Gunung Rinjai dan tempat pertemuan tiga sumber mata air lainnya, maka air yang ada di Balai Petirtaan dipercaya dapat menjadikan orang yang meminum dan membasuh mukanya dengan air di situ akan awet muda. Bangunan-bangunan lain di kompleks Taman Narmada dalam wujud pertamanan sudah sulit ditelusuri keasliannya. Menurut peta tahun 1899 taman di kompleks Taman Narmada diantaranya adalah: Taman Bidadari, Taman Anyar, Taman Paresak, dan Taman Kelasa. Taman Anyar dan Taman Kelasa saat ini telah menjadi perkampungan penduduk. Sedangkan Taman Paresak saat ini telah menjadi kebun buah-buahan dengan tanaman utamanya ialah buah manggis.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Lombok_Barat"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Narmada"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Betung_Kerihun -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Betung_Kerihun">
+        <rdfs:label>Taman Nasional Betung Kerihun</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Barat"/>
+        <http:id.dbpedia.orgphotoCaption>Orangutan Kalimantan tinggal di tamna ini</http:id.dbpedia.orgphotoCaption>
+        <http:id.dbpedia.orgestabilished>1992</http:id.dbpedia.orgestabilished>
+        <dbpedia-owl:abstract>Taman Nasional Betung Kerihun (sebelumnya Gunung Bentuang) adalah taman nasional yang terletak di provinsi Kalimantan Barat, Indonesia. Taman nasional ini didirikan pada tahun 1992, dan memiliki wilayah seluas 8.000 km² (3.100 mil²). Bersama dengan Lanjak Entimau di Malaysia, taman nasional ini telah diusulkan menjadi Situs Warisan Dunia UNESCO.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Lanjak_Entimau"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Betung_Kerihun"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Bogani_Nani_Wartabone -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Bogani_Nani_Wartabone">
+        <rdfs:label>Taman Nasional Bogani Nani Wartabone</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Selatan"/>
+        <http:id.dbpedia.orgestabilished>1991</http:id.dbpedia.orgestabilished>
+        <http:id.dbpedia.orggoverningBody>Kementrian Kehutanan</http:id.dbpedia.orggoverningBody>
+        <dbpedia-owl:abstract>Taman Nasional Bogani Nani Wartabone adalah taman 
+ nasional yang terletak di Semenanjung Minahassa, Sulawesi. Taman nasional ini memiliki luas sebesar 2.871,15 km². Sebelumnya, taman nasional ini dikenal sebagai Taman Nasional Bogani Nani Wartabone. Taman Nasional Bogani Nani Wartabone didirikan pada tahun 1991. Nama taman nasional ini berasal dari Nani Wartabone, Pahlawan Nasional Indonesia.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Nani_Wartabone"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Semenanjung_Minahassa"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Bogani_Nani_Wartabone"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Danau_Sentarum -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Danau_Sentarum">
+        <rdfs:label>Taman Nasional Danau Sentarum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Barat"/>
+        <dbpedia-owl:abstract>Taman Nasional Danau Sentarum adalah taman nasional yang melindungi keanekaragaman hayati Danau Sentarum. Taman nasional ini terletak di Kalimantan Barat, Indonesia. Sekitar setengah taman ini terdiri dari danau. Pada tahun 1999, Danau Sentarum ditetapkan sebagai taman nasional. Sebelumnya, Taman Nasional Danau Sentarum berstatus cagar alam (1981/1982) dan suaka margasatwa (sejak 1983).</dbpedia-owl:abstract>
+        <http:id.dbpedia.orggoverningBody>Kementrian Kehutanan</http:id.dbpedia.orggoverningBody>
+        <http:id.dbpedia.orgmap>Borneo</http:id.dbpedia.orgmap>
+        <http:id.dbpedia.orgmapCaption>Letak Danau Sentarum di Borneo</http:id.dbpedia.orgmapCaption>
+        <http:id.dbpedia.orglabelPosition>bottom</http:id.dbpedia.orglabelPosition>
+        <http:id.dbpedia.orglocation>Kalimantan Barat,Indonesia</http:id.dbpedia.orglocation>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Danau_Sentarum"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Gunung_Palung -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Gunung_Palung">
+        <rdfs:label>Taman Nasional Gunung Palung</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kalimantan_Barat"/>
+        <dbpedia-owl:abstract>Taman Nasional Gunung Palung (TNGP) adalah sebuah taman nasional yang terletak di Kabupaten Ketapang, Kalimantan Barat, sekitar 30 menit penerbangan dari Pontianak. Luas taman nasional ini adalah 90.000 hektar, yang terbentang di Kecamatan Matan Hilir Utara, Sukadana, Simpang Hilir, Nanga Tayap, dan Sandai. TNGP mempunyai ekosistem yang dikatakan sebagai yang terlengkap di antara taman-taman nasional di Indonesia. Di kawasannya terdapat Gunung Palung yang mempunyai ketinggian 1.116 meter. Selain itu, TNGP juga adalah habitat bagi sekira 2.200 ekor orangutan. Bekantan adalah mamalia dengan jumlah terbesar di TNGP.</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Bekantan"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Palung"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Ketapang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Matan_Hilir_Utara,_Ketapang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Orangutan"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;yayasanpalung.blogspot.com/"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Gunung_Palung"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="https://www.fauna-flora.org/"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Gunung_Rinjani -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Gunung_Rinjani">
+        <rdfs:label>Taman Nasional Gunung Rinjani</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Nusa_Tenggara_Barat"/>
+        <dbpedia-owl:abstract>Taman Nasional Gunung Rinjani (TNGR) adalah salah satu ekosistem dengan tipe hutan hujan pegunungan dan savana yang terletak di Pulau Lombok, Nusa Tenggara Barat. TNGR ditetapkan sebagai kawasan Taman Nasional melalui Surat Keputusan Menteri Kehutanan No.280/Kpts-II/1997 dengan luas 40.000hA walaupun dilapangan luasnya lebih dari 41,000hA.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Pulau_Lombok"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Gunung_Rinjani"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Kerinci_Seblat -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Kerinci_Seblat">
+        <rdfs:label>Taman Nasional Kerinci Seblat</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Bengkulu"/>
+        <http:id.dbpedia.orgyear>2004</http:id.dbpedia.orgyear>
+        <dbpedia-owl:abstract>Taman Nasional Kerinci Seblat adalah taman nasional terbesar di Sumatera, Indonesia yang memiliki luas wilayah sebesar 13,750 km² dan membentang ke empat provinsi yaitu Sumatera Barat, Jambi, Bengkulu dan Sumatera Selatan. Taman nasional ini terletak pada koordinat antara 100°31&apos;18&quot;E - 102°44&apos;01&quot;E dan 1°07&apos;13&quot;S - 1°26&apos;14&quot;S. Taman nasional ini terdiri dari Pegunungan Bukit Barisan yang memiliki wilayah dataran tertinggi di Sumatera, Gunung Kerinci (3.805 m). Taman nasional ini juga terdiri dari mata air-mata air panas, sungai-sungai beraliran deras, gua-gua, air terjun-air terjun dan danau kaldera tertinggi di Asia Tenggara, Gunung Tujuh. Taman nasional ini juga memiliki beragam flora dan fauna. Sekitar 4.000 spesies tumbuhan tumbuh di wilayah taman nasional termasuk bunga terbesar di dunia Rafflesia arnoldi, dan bunga tertinggi di dunia, Titan Arum. Fauna di wilayah taman nasional terdiri antara lain Harimau Sumatera, Badak Sumatera, Gajah Sumatera, Macan Dahan, Tapir Melayu, Beruang Madu, dan sekitar 370 spesies burung. Diterimanya Warisan Hutan Hujan Tropis Sumatera ke daftar Situs Warisan Dunia oleh UNESCO, membuat Taman Nasional Kerinci Seblat juga diterima sebagai Situs Warisan Dunia UNESCO. Bersama dengan Taman Nasional Gunung Leuser dan Taman Nasional Bukit Barisan Selatan.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgtype>Alam</http:id.dbpedia.orgtype>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Gunung_Kerinci"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pegunungan_Bukit_Barisan"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Kerinci_Seblat"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Komodo -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Komodo">
+        <rdfs:label>Taman Nasional Komodo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Nusa_Tenggara_Timur"/>
+        <http:id.dbpedia.orgmap>Indonesia Flores</http:id.dbpedia.orgmap>
+        <http:id.dbpedia.orgestabilished>1980</http:id.dbpedia.orgestabilished>
+        <dbpedia-owl:abstract>Taman Nasional Komodo terletak di antara provinsi Nusa Tenggara Timur dan Nusa Tenggara Barat. Taman nasional ini terdiri atas tiga pulau besar Pulau Komodo, Pulau Rinca, dan Pulau Padar serta beberapa pulau kecil. Wilayah darat taman nasional ini 603 km² dan wilayah total adalah 1817 km². Pada tahun 1980 taman nasional ini didirikan untuk melindungi komodo dan habitatnya. Di sana terdapat 277 spesies hewan yang merupakan perpaduan hewan yang berasal dari Asia dan Australia, yang terdiri dari 32 spesies mamalia, 128 spesies burung, dan 37 spesies reptilia. Bersama dengan komodo, setidaknya 25 spesies hewan darat dan burung termasuk hewan yang dilindungi, karena jumlahnya yang terbatas atau terbatasnya penyebaran mereka. Selain itu, di kawasan ini terdapat pula terumbu karang. Setidaknya terdapat 253 spesies karang pembentuk terumbu yang ditemukan di sana, dengan sekitar 1.000 spesies ikan. Keindahan terumbu ini menarik minat wisatawan asing untuk berenang atau menyelam di perairan ini. Pulau-pulau ini aslinya adalah pulau vulkanis. Jumlah penduduk di wilayah ini kurang lebih adalah 4.000 jiwa. Pada tahun 1986 taman nasional ini diterima sebagai Situs Warisan Dunia UNESCO. Pada tanggal 11 November 2011, New 7 Wonders telah mengumumkan pemenang sementara, dan Taman Nasional Komodo masuk kedalam jajaran pemenang tersebut bersama dengan, Hutan Amazon, Teluk Halong, Air Terjun Iguazu, Pulau Jeju, Sungai Bawah Tanah Puerto Princesa, dan Table Mountain. Taman Nasional Komodo mendapatkan suara terbanyak .</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgphotoCaption>Naga Komodo di Taman Nasional Komodo</http:id.dbpedia.orgphotoCaption>
+        <http:id.dbpedia.orgyear>1991</http:id.dbpedia.orgyear>
+        <http:id.dbpedia.orgtype>Alam</http:id.dbpedia.orgtype>
+        <http:id.dbpedia.orggoverningBody>Kementrian Kehutanan Republik Indonesia</http:id.dbpedia.orggoverningBody>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Komodo"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Monyet_ekor_panjang"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pulau_Komodo"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pulau_Padar"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Pulau_Rinca"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Terumbu_karang"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.komodonationalpark.org/"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;www.wahyu-winoto.com/2011/02/komodo-island-is-new-7-wonders-of-world.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Komodo"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Lore_Lindu -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Lore_Lindu">
+        <rdfs:label>Taman Nasional Lore Lindu</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tengah"/>
+        <http:id.dbpedia.orgestabilished>1982</http:id.dbpedia.orgestabilished>
+        <dbpedia-owl:abstract>Taman Nasional Lore Lindu (TNLL) merupakan taman nasional di Indonesia yang terletak di provinsi Sulawesi Tengah dan salah satu lokasi perlindungan hayati Sulawesi. Taman Nasional Lore Lindu terletak sekitar 60 kilometer selatan kota Palu dan terletak antara 119°90’ - 120°16’ di sebelah timur dan 1°8’ - 1°3’ di sebelah selatan. Kalau dibandingkan dengan taman nasional lain di Indonesia, ukurannya sedang saja, Taman Nasional ini secara resmi meliputi kawasan 217.991.18 ha (sekitar 1.2% wilayah Sulawesi yang luasnya 189.000 km² atau 2.4% dari sisa hutan Sulawesi yakni 90.000 km²)dengan ketinggian bervariasi antara 200 sampai dengan 2.610 meter di atas permukaan laut. Taman Nasional ini sebagian besar terdiri atas hutan pegunungan dan sub-pegunungan (±90%) dan sebagian kecil hutan dataran rendah (±10%). Taman Nasional Lore Lindu memiliki fauna dan flora endemik Sulawesi serta panorama alam yang menarik karena terletak di garis Wallace yang merupakan wilayah peralihan antara zona Asia dan Australia. Taman Nasional Lore Lindu yang terletak di selatan kabupaten Donggala dan bagian barat kabupaten Poso menjadi daerah tangkapan air bagi 3 sungai besar di Sulawesi Tengah, yakni sungai Lariang, sungai Gumbasa dan sungai Palu. Kawasan Taman Nasional Lore Lindu merupakan habitat mamalia asli terbesar di Sulawesi. Anoa, babirusa, rusa, kera hantu, kera kakaktonkea, kuskus marsupial dan binatang pemakan daging terbesar di Sulawesi, musang Sulawesi hidup di taman ini. Taman Nasional Lore Lindu juga memiliki paling sedikit 5 jenis bajing dan 31 dari 38 jenis tikusnya, termasuk jenis endemik. Sedikitnya ada 55 jenis kelelawar dan lebih dari 230 jenis burung, termasuk maleo, 2 jenis enggang Sulawesi yaitu julang Sulawesi dan kengkareng Sulawesi. Burung enggang benbuncak juga disebut rangkong atau burung allo menjadi penghuni Taman Nasional Lore Lindu. Ribuan serangga aneh dan cantik dapat dilihat di sekitar taman ini. Layak diamati adalah kupu-kupu berwarna mencolok yang terbang di sekitar taman maupun sepanjang jalan setapak dan aliran sungai. Patung-patung megalit yang usianya mencapai ratusan bahkan ribuan tahun tersebar di kawasan Taman Nasional Lore Lindu seperti Lembah Napu, Besoa dan Bada. Patung-patung ini sebagai monumen batu terbaik di antara patung-patung sejenis di Indonesia. Ada 5 klasifikasi patung berdasarkan bentuknya: Patung-patung batu: patung-patung ini biasanya memiliki ciri manusia, tetapi hanya kepala, bahu dan kelamin. Kalamba: ini adalah bentuk megalit yang banyak ditemukan dan menyerupai jambangan besar. Mungkin ini adalah tempat persediaan air, atau juga tempat menaruh mayat pada upacara penguburan. Tutu&apos;na: ini adalah piringan-piringan dari batu, kemungkinan besar penutup kalamba. Batu Dakon: batu-batu berbentuk rata sampai cembung yang menggambarkan saluran-saluran, lubang-lubang tidak teratur dan lekukan-lekukan lain. Lain-lain: mortar batu, tiang penyangga rumah dan beberapa bentuk lain juga ditemukan.</dbpedia-owl:abstract>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Lore_Lindu"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Lorentz -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Lorentz">
+        <rdfs:label>Taman Nasional Lorentz</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Papua"/>
+        <dbpedia-owl:type>Alam</dbpedia-owl:type>
+        <dbpedia-owl:abstract>Taman Nasional Lorentz adalah sebuah taman nasional yang terletak di provinsi Papua, Indonesia. Dengan luas wilayah sebesar 25.000 km² Lorentz merupakan taman nasional terbesar di Asia Tenggara. Taman ini masih belum dipetakan, dijelajahi dan banyak terdapat tanaman asli, hewan dan budaya. Pada 1999 taman nasional ini diterima sebagai Situs Warisan Dunia UNESCO. Wilayahnya juga terdapat persediaan mineral, dan operasi pertambangan berskala besar juga aktif di sekitar taman nasional ini. Ada juga Proyek Konservasi Taman Nasional Lorentz yang terdiri dari sebuah inisiatif masyarakat untuk konservasi komunal dan ekologi warisan yang berada di sekitar Taman Nasional Loretz ini. Dari tahun 2003 hingga kini, WWF-Indonesia Region Sahul Papua sedang melakukan pemetaan wilayah adat dalam kawasan Taman Nasional Lorentz. Tahun 2003- 2006, WWF telah melakukan pemetaan di Wilayah Taman Nasional Lorentz yang berada di Distrik (Kecamatan) Kurima Kabupaten Yahukimo, dan Tahun 2006-2007 ini pemetaan dilakukan di Distrik Sawaerma Kabupaten Asmat. Nama Taman Nasional ini diambil dari seorang Penjelajah asal Belanda, Hendrikus Albertus Lorentz,yang melewati daerah tersebut pada tahun 1909 yang merupakan ekspedisinya yang ke-10 di Taman Nasional ini.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgyear>1999</http:id.dbpedia.orgyear>
+        <http:id.dbpedia.orgestabilished>1997</http:id.dbpedia.orgestabilished>
+        <http:id.dbpedia.orggoverningBody>Departemen Kehutanan</http:id.dbpedia.orggoverningBody>
+        <http:id.dbpedia.orglocation rdf:resource="&http;id.dbpedia.org/page/Provinsi_Papua"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;whc.unesco.org/en/list/955"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Lorentz"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Tesso_Nilo -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Tesso_Nilo">
+        <rdfs:label>Taman Nasional Tesso Nilo</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Riau"/>
+        <dbpedia-owl:abstract>Taman Nasional Tesso Nilo adalah sebuah taman nasional yang terletak di provinsi Riau, Indonesia. Taman nasional ini diresmikan pada 19 Juli 2004 dan mempunyai luas sebesar 38.576 hektare. Kawasan yang masuk wilayah taman nasional ini adalah kawasan bekas Hak Pengusahaan Hutan (HPH) yang terletak di Kabupaten Pelalawan dan Indragiri Hulu. Hingga kini di sekelilingnya masih terdapat kawasan HPH. Terdapat 360 jenis flora yang tergolong dalam 165 marga dan 57 suku, 107 jenis burung, 23 jenis mamalia, tiga jenis primata, 50 jenis ikan, 15 jenis reptilia dan 18 jenis amfibia di setiap hektare Taman Nasional Tesso Nilo. Tesso Nillo juga adalah salah satu sisa hutan dataran rendah yang menjadi tempat tinggal 60-80 ekor gajah dan merupakan kawasan konservasi gajah. Sepotong jalan milik PT. Riau Andalas Pulp and Paper membelah taman nasional ini. Dilaporkan bahwa pemerintah provinsi berencana untuk memutus jalan ini agar mengurangi kegiatan pembalakan liar (illegal logging).</dbpedia-owl:abstract>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;beritabumi.or.id/berita3.php?idberita=182"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Tesso_Nilo"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Wakatobi -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Wakatobi">
+        <rdfs:label>Taman Nasional Wakatobi</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Sulawesi_Tenggara"/>
+        <dbpedia-owl:abstract>Taman Nasional Wakatobi merupakan salah satu dari 50 taman nasoinal di Indonesia, yang terletak di kabupaten Wakatobi, Sulawesi Tenggara. Taman nasional ini ditetapkan pada tahun 1996, dengan total area 1,39 juta ha, menyangkut keanekaragaman hayati laut, skala dan kondisi karang; yang menempati salah satu posisi prioritas tertinggi dari konservasi laut di Indonesia. Kedalaman air di taman nasional ini bervariasi, bagian terdalam mencapai 1.044 meter di bawah permukaan air laut.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Wakatobi"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Wakatobi"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Nasional_Wasur -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Nasional_Wasur">
+        <rdfs:label>Taman Nasional Wasur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Papua"/>
+        <dbpedia-owl:abstract>Taman Nasional Wasur merupakan bagian dari lahan basah terbesar di Papua dan sedikit terganggu oleh aktivitas manusia. Biodiversitasnya membuat taman ini dijuluki sebagai &quot;Serengeti Papua&quot;. Sekitar 70% dari luas wilayah ini terdiri dari sabana, sementara vegetasi lainnya merupakan hutan rawa-rawa, hutan monsoon, hutan pantai, hutan bambu, padang rumput dan hutan sagu. Tamana yang dominan meliputi spesies mangrove, Terminalia dan Melaleuca.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orggoverningBody>Kementrian Kehutanan</http:id.dbpedia.orggoverningBody>
+        <http:id.dbpedia.orgestabilished>1990</http:id.dbpedia.orgestabilished>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Mangrove"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Melaleuca"/>
+        <http:id.dbpedia.orgnearCity rdf:resource="&http;id.dbpedia.org/page/Merauke"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Sabana"/>
+        <dbpedia-owl:wikiPageWikiLink rdf:resource="&http;id.dbpedia.org/page/Terminalia"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Nasional_Wasur"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="https://www.worldwildlife.org/biomes"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Taman_Sari_Yogyakarta -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Taman_Sari_Yogyakarta">
+        <rdfs:label>Taman sari Yogyakarta</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Kota_Yogyakarta"/>
+        <http:id.dbpedia.orgarchitect>Tumenggung Mangundipura, Demang Tegis</http:id.dbpedia.orgarchitect>
+        <dbpedia-owl:abstract>Taman Sari Yogyakarta atau Taman Sari Keraton Yogyakarta adalah situs bekas taman atau kebun istana Keraton Yogyakarta, yang dapat dibandingkan dengan Kebun Raya Bogor sebagai kebun Istana Bogor. Kebun ini dibangun pada zaman Sultan Hamengku Buwono I (HB I) pada tahun 1758-1765/9. Awalnya, taman yang mendapat sebutan &quot;The Fragrant Garden&quot; ini memiliki luas lebih dari 10 hektare dengan sekitar 57 bangunan baik berupa gedung, kolam pemandian, jembatan gantung, kanal air, maupun danau buatan beserta pulau buatan dan lorong bawah air. Kebun yang digunakan secara efektif antara 1765-1812 ini pada mulanya membentang dari barat daya kompleks Kedhaton sampai tenggara kompleks Magangan. Namun saat ini, sisa-sisa bagian Taman Sari yang dapat dilihat hanyalah yang berada di barat daya kompleks Kedhaton saja. Konon, Taman Sari dibangun di bekas keraton lama, Pesanggrahan Garjitawati, yang didirikan oleh Susuhunan Paku Buwono II sebagai tempat istirahat kereta kuda yang akan pergi ke Imogiri. Sebagai pimpinan proyek pembangunan Taman Sari ditunjuklah Tumenggung Mangundipuro. Seluruh biaya pembangunan ditanggung oleh Bupati Madiun, Tumenggung Prawirosentiko, besrta seluruh rakyatnya. Oleh karena itu daerah Madiun dibebaskan dari pungutan pajak. Di tengah pembangunan pimpinan proyek diambil alih oleh Pangeran Notokusumo, setelah Mangundipuro mengundurkan diri. Walaupun secara resmi sebagai kebun kerajaan, namun bebrapa bangunan yang ada mengindikasikan Taman Sari berfungsi sebagai benteng pertahanan terakhir jika istana diserang oleh musuh. Konon salah seorang arsitek kebun kerajaan ini adalah seorang Portugis yang lebih dikenal dengan Demang Tegis. Kompleks Taman Sari setidaknya dapat dibagi menjadi 4 bagian. Bagian pertama adalah danau buatan yang terletak di sebelah barat. Bagian selanjutnya adalah bangunan yang berada di sebelah selatan danau buatan antara lain Pemandian Umbul Binangun. Bagian ketiga adalah Pasarean Ledok Sari dan Kolam Garjitawati yang terletak di selatan bagian kedua. Bagian terakhir adalah bagian sebelah timur bagian pertama dan kedua dan meluas ke arah timur sampai tenggara kompleks Magangan.</dbpedia-owl:abstract>
+        <http:id.dbpedia.orgcompletionDate>1765</http:id.dbpedia.orgcompletionDate>
+        <http:id.dbpedia.orgcaption>Taman Sari</http:id.dbpedia.orgcaption>
+        <http:id.dbpedia.orglocationTown>Jl. Ngasem, Yogyakarta</http:id.dbpedia.orglocationTown>
+        <http:id.dbpedia.orgmapType>Java Topography</http:id.dbpedia.orgmapType>
+        <http:id.dbpedia.orgclient>Hamengkubuwono I</http:id.dbpedia.orgclient>
+        <http:id.dbpedia.orgconstructionStartDate>1758</http:id.dbpedia.orgconstructionStartDate>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Taman_Sari_Yogyakarta"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="https://teamtouring.net/taman-sari-yogyakarta.html"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Telaga_Sarangan -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Telaga_Sarangan">
+        <rdfs:label>Telaga Sarangan</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Timur"/>
+        <dbpedia-owl:abstract>Telaga Sarangan yang juga dikenal sebagai telaga pasir ini adalah sebuah telaga alami yang terletak di kaki Gunung Lawu, di Kecamatan Plaosan, Kabupaten Magetan, Jawa Timur. Berjarak sekitar 16 kilometer arah barat kota Magetan. Telaga ini luasnya sekitar 30 hektar dan berkedalaman 28 meter. Dengan suhu udara antara 18 hingga 25 derajat Celsius, Telaga Sarangan mampu menarik ratusan ribu pengunjung setiap tahunnya. Telaga Sarangan merupakan obyek wisata andalan Magetan. Di sekeliling telaga terdapat dua hotel berbintang, 43 hotel kelas melati, dan 18 pondok wisata. Di samping puluhan kios cendera mata, pengunjung dapat pula menikmati indahnya Sarangan dengan berkuda mengitari telaga, atau mengendarai kapal cepat. Fasilitas obyek wisata lainnya pun tersedia, misalnya rumah makan, tempat bermain, pasar wisata, tempat parkir, sarana telepon umum, tempat ibadah, dan taman. Keberadaan 19 rumah makan di sekitar telaga menjadikan para pengunjung memiliki banyak alternatif pilihan menu. Demikian pula keberadaan pedagang kaki lima yang menawarkan berbagai suvenir telah memberikan kemudahan kepada pengunjung untuk membeli oleh-oleh. Hidangan khas yang dijajakan di sekitar telaga adalah sate kelinci. Magetan juga tertolong dengan adanya potensi industri kecil setempat yang mampu memproduksi kerajinan untuk suvenir, misalnya anyaman bambu, kerajinan kulit, kerajinan sepatu, dan produk makanan khas seperti emping melinjo dan lempeng (kerupuk puli, yaitu kerupuk dari nasi). Telaga Sarangan juga memiliki layanan jasa sewa perahu dan becak air. Ada 51 perahu motor dan 13 becak air yang dapat digunakan untuk menjelajahi telaga. Telaga Sarangan memiliki beberapa kalender event penting tahunan, yaitu labuh sesaji pada Jumat Pon bulan Ruwah, liburan sekolah di pertengahan tahun, Ledug Sura 1 Muharram, dan pesta kembang api di malam pergantian tahun. Pemkab setempat tengah membuat proyek jalan tembus yang menghubungkan Telaga Sarangan dengan obyek wisata Tawangmangu di Kabupaten Karanganyar. Proyek pelebaran dan pelandaian jalan curam yang menghubungkan dua daerah tersebut diharapkan selesai tahun 2007. Obyek wisata ini dapat ditempuh dari Kota Magetan; dan lokasinya tak jauh dengan Air Terjun Grojogan Sewu, Tawangmangu. Pemkab Magetan juga ingin mengembangkan Waduk Poncol (sekitar 10 kilometer arah selatan Telaga Sarangan) sebagai obyek wisata alternatif.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Magetan"/>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Plaosan,_Magetan"/>
+        <dbpedia-owl:wikiPageExternalLink rdf:resource="&http;teamtouring.net/menikmati-indahnya-telaga-sarangan.html"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Telaga_Sarangan"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Waduk_Jatiluhur -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Waduk_Jatiluhur">
+        <rdfs:label>Waduk Jatiluhur</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&http;id.dbpedia.org/page/Jawa_Barat"/>
+        <dbpedia-owl:abstract>Waduk Jatiluhur terletak di Kecamatan Jatiluhur, Kabupaten Purwakarta, Provinsi Jawa Barat (±9 km dari pusat Kota Purwakarta). Bendungan Jatiluhur adalah bendungan terbesar di Indonesia. Bendungan itu dinamakan oleh pemerintah Waduk Ir. H. Juanda, dengan panorama danau yang luasnya 8.300 ha. Bendungan ini mulai dibangun sejak tahun 1957 oleh kontraktor asal Perancis, dengan potensi air yang tersedia sebesar 12,9 miliar m / tahun dan merupakan waduk serbaguna pertama di Indonesia. Di dalam Waduk Jatiluhur, terpasang 6 unit turbin dengan daya terpasang 187 MW dengan produksi tenaga listrik rata-rata 1.000 juta kwh setiap tahun, dikelola oleh Perum Jasa Tirta II. Selain dari itu Waduk Jatiluhur memiliki fungsi penyediaan air irigasi untuk 242.000 ha sawah (dua kali tanam setahun), air baku air minum, budi daya perikanan dan pengendali banjir yang dikelola oleh Perum Jasa Trita II. Selain berfungsi sebagai PLTA dengan sistem limpasan terbesar di dunia, kawasan Jatiluhur memiliki banyak fasilitas rekreasi yang memadai, seperi hotel dan bungalow, bar dan restaurant, lapangan tenis, bilyard, perkemahan, kolam renang dengan water slide, ruang pertemuan, sarana rekreasi dan olahraga air, playground dan fasilitas lainnya. Sarana olahraga dan rekreasi air misalnya mendayung, selancar angin, kapal pesiar, ski air, boating dan lainnya. Di perairan Danau Jatiluhur ini juga terdapat budidaya ikan keramba jaring apung, yang menjadi daya tarik tersendiri. Di waktu siang atau dalam keheningan malam kita dapat memancing penuh ketenangan sambil menikmati ikan bakar. Dikawasan ini pula kita dapat melihat Stasiun Satelit Bumi yang dikelola oleh PT. Indosat Tbk. (±7 km dari pusat Kota Purwakarta), sebagai alat komunikasi internasional. Jenis layanan yang disediakan antara lain international toll free service (ITFS), Indosat Calling Card (ICC), international direct dan lainnya. Waduk Jatiluhur dapat dikunjungi melalui Jalan Tol Purbaleunyi, keluar di Gerbang Tol Jatiluhur.</dbpedia-owl:abstract>
+        <dbpedia-owl:location rdf:resource="&http;id.dbpedia.org/page/Kabupaten_Purwakarta"/>
+        <foaf:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Waduk_Jatiluhur"/>
+    </Class>
+    
+
+
+    <!-- http://id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/ -->
+
+    <Class rdf:about="&http;id.dbpedia.org/page/Daftar_tempat_wisata_di_Indonesia/">
+        <rdfs:label>Tempat Wisata Di Indonesia</rdfs:label>
+        <dbpedia-owl:abstract>Berikut adalah daftar tempat pariwisata di Indonesia berdasarkan provinsi. Untuk informasi lebih lengkap mengenai pariwisata di Indonesia, Anda juga dapat mengunjungi TravellersID.</dbpedia-owl:abstract>
+    </Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
